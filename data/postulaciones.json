@@ -1,4 +1,221 @@
 [
+  {
+    "id": 27,
+    "verificado": "CT-KASNET-06",
+    "fecha": "02 de marzo de 2026",
+    "empresa": "KasNet (Red Digital del Perú)",
+    "puesto": "Ingeniero de Datos",
+    "modalidad": "Híbrido (Surco - 2 días remoto)",
+    "url_vacante": "Postulación interna / Computrabajo",
+    "cliente_sector": "Fintech / Red de Agentes Corresponsales",
+    "proyecto_detalle": "Diseño e implementación de arquitecturas Data Lake en AWS, orquestación de flujos Batch/Streaming y gestión de catálogos de datos.",
+    "stack_tecnico": ["AWS (S3, Glue, Lambda, Athena)", "Python", "SQL", "NoSQL (DynamoDB)", "Terraform", "PySpark"],
+    "prioridad": "Alta",
+    "estrategia_completa": [
+      {
+        "titulo": "Arquitectura de Datos y Cloud (AWS)",
+        "contenido": "Capacidad para diseñar capas de datos (Raw, Stage, Analytics) utilizando servicios de AWS. Mi formación en ingeniería me otorga el rigor necesario para configurar arquitecturas escalables y seguras, alineadas con los estándares de KasNet."
+      },
+      {
+        "titulo": "Automatización y Orquestación de Flujos",
+        "contenido": "Experiencia liderando la optimización de procesos técnicos (Redes Ópticas). Aplicación de lógica de ingeniería para la orquestación de pipelines mediante AWS Lambda y Step Functions, asegurando integridad en el procesamiento Batch y Streaming."
+      },
+      {
+        "titulo": "Gestión de Datos y Modelamiento",
+        "contenido": "Dominio de bases de datos relacionales (PostgreSQL) y no relacionales. Mi experiencia con Python y mi formación en el Bootcamp de Henry (Data Science) garantizan modelos de datos optimizados para análisis de alto impacto."
+      }
+    ],
+    "notas_adicionales": [
+      "Diferencial Local: Residencia en Surco facilita la asistencia presencial en Chacarilla según el esquema híbrido.",
+      "Proactividad Técnica: Resaltar el uso de GitHub para control de versiones y el CRM propio como prueba de capacidad de desarrollo e implementación de soluciones."
+    ]
+  },
+  {
+    "id": 26,
+    "verificado": "CT-TRANSVIAL-05",
+    "fecha": "02 de marzo de 2026",
+    "empresa": "TRANSVIAL LIMA SAC",
+    "puesto": "Ingeniero de Automatización, Datos e IA",
+    "modalidad": "100% Remoto",
+    "url_vacante": "https://pe.computrabajo.com/trabajo-de-ingeniero-de-base-de-datos-remoto-en-lima-A62E8A68B2570D0961373E686DCF3405",
+    "cliente_sector": "Transporte Masivo y Logística Tecnológica",
+    "proyecto_detalle": "Liderar la modernización de operaciones mediante el desarrollo de pipelines de datos integrando telemetría, reservas y modelos predictivos de IA.",
+    "stack_tecnico": ["PostgreSQL", "Supabase", "Python", "APIs REST", "Workflows", "IA Generativa", "Power BI"],
+    "prioridad": "Crítica",
+    "estrategia_completa": [
+      {
+        "titulo": "Sinergia Electrónica-Datos (Telemetría)",
+        "contenido": "Como Ingeniero Electrónico, poseo una ventaja competitiva para entender y construir pipelines que integren telemetría de flota con bases de datos operativas. Mi tesis en Edge Computing es la prueba directa de mi capacidad para gestionar datos desde el origen técnico hasta la nube."
+      },
+      {
+        "titulo": "Automatización con Python y APIs",
+        "contenido": "Experiencia probada en Redes Ópticas optimizando flujos de 50 a 5 personas mediante scripts y PyQt6. Aplicación de lógica de integración vía APIs REST y Webhooks para conectar CRM, contabilidad y operaciones en flujos automáticos."
+      },
+      {
+        "titulo": "Modelado Predictivo y Revenue Management",
+        "contenido": "Uso de herramientas de Data Science (Pandas, SQL) para desarrollar modelos de ocupación, pricing y demanda. Capacidad para implementar soluciones de IA generativa y dashboards automatizados que aseguren trazabilidad y soporte estratégico."
+      }
+    ],
+    "notas_adicionales": [
+      "Diferencial Clave: El CRM laboral propio en HTML/JS es evidencia de la capacidad de crear herramientas de gestión desde cero.",
+      "Entorno Remoto: Resaltar la disciplina de trabajo demostrada en plataformas como Fiverr y Upwork para garantizar autonomía total."
+    ]
+  },
+  {
+    "id": 25,
+    "verificado": "CT-RECUERDO-04",
+    "fecha": "02 de marzo de 2026",
+    "empresa": "Parque del Recuerdo",
+    "puesto": "Científico de Datos",
+    "modalidad": "Híbrido (Surco - Chacarilla / Remoto)",
+    "url_vacante": "https://pe.computrabajo.com/trabajo-de-cientifico-de-datos-surco-en-lima-B48825006D28A25261373E686DCF3405",
+    "cliente_sector": "Servicios Exequiales y Previsión",
+    "proyecto_detalle": "Construcción de modelos predictivos (Forecast), segmentación de clientes y automatización de pipelines de datos (ETL).",
+    "stack_tecnico": ["Python", "SQL Avanzado", "Machine Learning", "ETL", "Power BI", "Estadística Avanzada"],
+    "prioridad": "Alta",
+    "estrategia_completa": [
+      {
+        "titulo": "Lógica Predictiva y Forecast",
+        "contenido": "Aplicación de modelos de clasificación y series de tiempo para proyecciones de demanda (Forecast). Mi tesis en monitoreo en tiempo real me otorga una base sólida para el manejo de flujos de datos dinámicos."
+      },
+      {
+        "titulo": "Optimización de Pipelines (ETL)",
+        "contenido": "Capacidad para la extracción, transformación y carga de datos desde múltiples fuentes. Mi formación en ingeniería asegura procesos eficientes, seguros y con alta trazabilidad de la información crítica."
+      },
+      {
+        "titulo": "Análisis y Proactividad en Surco",
+        "contenido": "Perfil proactivo con capacidad de síntesis para generar insights accionables. La cercanía a las oficinas en Chacarilla garantiza una integración fluida en el esquema híbrido y una comunicación asertiva con el equipo técnico."
+      }
+    ],
+    "notas_adicionales": [
+      "Diferencial: El Bootcamp de Henry valida mis competencias en Machine Learning y Deep Learning frente al requisito de analítica avanzada.",
+      "Competencias Blandas: Resaltar la empatía y la visión estratégica en un rubro de servicios donde el dato debe humanizarse para la toma de decisiones."
+    ]
+  },
+  {
+    "id": 24,
+    "verificado": "CT-INTERCORP-03",
+    "fecha": "02 de marzo de 2026",
+    "empresa": "Grupo Intercorp (Super Food Holding)",
+    "puesto": "Científico de Datos",
+    "modalidad": "Remoto - Tiempo completo",
+    "url_vacante": "https://pe.computrabajo.com/trabajo-de-cientifico-de-datos-remoto-en-lima-A62E8A68B2570D0961373E686DCF3405",
+    "cliente_sector": "Retail / Consumo Masivo (plazaVea, Mass, Makro)",
+    "proyecto_detalle": "Modelado de comportamiento del cliente, Machine Learning para retención y despliegue de soluciones con IA Generativa (Prompt Engineering).",
+    "stack_tecnico": ["Python", "SQL", "Machine Learning", "Deep Learning", "Power BI", "GCP", "MLOps"],
+    "prioridad": "Muy Alta",
+    "estrategia_completa": [
+      {
+        "titulo": "Modelado Predictivo y Machine Learning",
+        "contenido": "Uso de los conocimientos adquiridos en el Bootcamp de Data Science (Henry) para diseñar e implementar modelos de clasificación y segmentación de clientes, enfocados en detectar oportunidades de crecimiento y retención."
+      },
+      {
+        "titulo": "Insights Estratégicos y Storytelling",
+        "contenido": "Capacidad para traducir datos complejos en dashboards de Power BI que impacten en la toma de decisiones de marketing. Mi experiencia en I+D garantiza reportes técnicos precisos y orientados a resultados de negocio."
+      },
+      {
+        "titulo": "Innovación con IA y Automatización",
+        "contenido": "Liderazgo en la implementación de pruebas de concepto con IA (Prompt Engineering) y adopción de prácticas MLOps, asegurando que los modelos no solo sean precisos, sino también escalables y mantenibles."
+      }
+    ],
+    "notas_adicionales": [
+      "Diferencial: El perfil de Ingeniero Electrónico aporta una visión de procesos y optimización matemática que complementa el análisis estadístico puro.",
+      "Criterio de Selección: Resaltar que ya cuento con la tesis sustentada y certificaciones en SQL y Power BI (Zegel IPAE)."
+    ]
+  },
+  {
+    "id": 23,
+    "verificado": "CT-CIVILMIND-02",
+    "fecha": "02 de marzo de 2026",
+    "empresa": "CIVIL MIND LLC",
+    "puesto": "Desarrollador Senior CSS / JavaScript (Reportes Técnicos)",
+    "modalidad": "Remoto - Part-time / Flexible",
+    "url_vacante": "Postulación interna / Computrabajo",
+    "cliente_sector": "Ingeniería Civil y Consultoría Estructural",
+    "proyecto_detalle": "Optimización y mantenimiento de reportes técnicos HTML con conversión de alta fidelidad a PDF.",
+    "stack_tecnico": ["JavaScript", "CSS3", "HTML5", "Librerías de Gráficos JS", "Conversión PDF"],
+    "prioridad": "Alta",
+    "estrategia_completa": [
+      {
+        "titulo": "Fidelidad Visual y Documentación de Ingeniería",
+        "contenido": "Dominio de la maquetación avanzada para asegurar que los reportes técnicos mantengan integridad total al convertirse a PDF. Mi experiencia con LaTeX para manuales industriales garantiza un criterio estético y técnico superior."
+      },
+      {
+        "titulo": "Lógica de Gráficos para Datos Técnicos",
+        "contenido": "Capacidad para implementar y extender librerías de gráficos en JS aplicadas a cálculos de ingeniería. Como Ingeniero Electrónico, entiendo la precisión requerida en la visualización de datos estructurales y geotécnicos."
+      },
+      {
+        "titulo": "Mentalidad de Producto e Infraestructura",
+        "contenido": "Uso de Git y buenas prácticas de código para mantener y escalar la base de código existente. Enfoque en autonomía y comunicación asertiva para entornos de trabajo remoto por objetivos."
+      }
+    ],
+    "notes_adicionales": [
+      "Diferencial: Resaltar el perfil híbrido Ingeniero + Programador para entender los requerimientos civiles sin intermediarios.",
+      "Portafolio: El CRM propio en HTML es la prueba principal de manejo de layouts limpios y funcionales."
+    ]
+  },
+  {
+    "id": 22,
+    "verificado": "CT-ALTIMEA-01",
+    "fecha": "02 de marzo de 2026",
+    "empresa": "Altimea SAC",
+    "puesto": "Desarrollador Python (Django/Vue)",
+    "modalidad": "Remoto - Lima (9 am - 1 pm)",
+    "url_vacante": "https://pe.computrabajo.com/trabajo-de-desarrollador-python-en-lima-A3728956A76E838F61373E686DCF3405",
+    "cliente_sector": "Consultoría de Tecnología e Innovación",
+    "proyecto_detalle": "Implementación y arquitectura de microservicios con enfoque en gamificación.",
+    "stack_tecnico": ["Python", "Django", "Vue JS", "API REST", "Docker", "AWS", "SOLID"],
+    "prioridad": "Alta",
+    "estrategia_completa": [
+      {
+        "titulo": "Arquitectura y Patrones de Diseño",
+        "contenido": "Aplicación de principios SOLID y patrones de diseño en el desarrollo de microservicios. Mi formación en ingeniería garantiza código escalable, modular y fácil de mantener, ideal para arquitecturas orientadas a servicios."
+      },
+      {
+        "titulo": "Dominio Fullstack con Python y Vue JS",
+        "contenido": "Capacidad para integrar el backend en Django con interfaces reactivas en Vue JS. Enfoco el desarrollo en la experiencia de usuario (UX) moderna, asegurando que las funcionalidades de gamificación sean fluidas y atractivas."
+      },
+      {
+        "titulo": "Optimización de Flujos y Productividad",
+        "contenido": "Experiencia previa optimizando flujos de trabajo técnicos. Mi enfoque en el bloque matutino garantiza una alta densidad de entrega y cumplimiento de sprints en entornos de consultoría ágil."
+      }
+    ],
+    "notas_adicionales": [
+      "Horario Estratégico: Resaltar que el part-time permite una entrega focalizada de alto rendimiento.",
+      "Mentalidad de Ingeniero: Mencionar la tesis como prueba de capacidad para resolver problemas de arquitectura compleja."
+    ]
+  },
+  {
+    "id": 21,
+    "verificado": "CT-CIVILMIND-02",
+    "fecha": "02 de marzo de 2026",
+    "empresa": "CIVIL MIND LLC, SUCURSAL DEL PERÚ",
+    "puesto": "Senior CSS / JavaScript (Reportes de Ingeniería)",
+    "modalidad": "Remoto - Freelance / Tiempo Parcial",
+    "url_vacante": "https://pe.computrabajo.com/trabajo-de-desarrollador-senior-css-javascript-en-miraflores-ED7193F756B72EDC61373E686DCF3405",
+    "cliente_sector": "Ingeniería Civil / Geotecnia / Análisis Estructural",
+    "proyecto_detalle": "Mantenimiento y optimización de generador de reportes técnicos HTML a PDF.",
+    "stack_tecnico": ["CSS3", "JavaScript", "HTML to PDF", "LaTeX", "Visualización de Datos"],
+    "prioridad": "Crítica",
+    "estrategia_completa": [
+      {
+        "titulo": "Rigor en Documentación Técnica",
+        "contenido": "Como Ingeniero Electrónico con experiencia en LuaLaTeX, entiendo la importancia de la precisión en reportes de ingeniería. Garantizo una maquetación impecable en la conversión de HTML a PDF, respetando escalas y normativas técnicas."
+      },
+      {
+        "titulo": "Visualización de Datos Industriales",
+        "contenido": "Experiencia traduciendo datos de sensores y cálculos complejos a gráficos interpretables. Utilizo JavaScript para extender la funcionalidad de reportes existentes, asegurando que la data técnica sea clara para ingenieros y clientes finales."
+      },
+      {
+        "titulo": "Mantenimiento de Código Legacy y Buenas Prácticas",
+        "contenido": "Capacidad para auditar y mejorar bases de código existentes. Mi metodología de trabajo incluye trazabilidad total y optimización de estilos CSS para asegurar compatibilidad y fidelidad visual multiplataforma."
+      }
+    ],
+    "notas_adicionales": [
+      "Afinidad Académica: Resaltar que hablas el idioma de la ingeniería (estructuras, cálculos, precisión).",
+      "Diferenciador LaTeX: Mencionar que tu dominio de LaTeX te da un criterio de diseño de documentos superior al de un desarrollador web promedio."
+    ]
+  },
     {
     "id": 20,
     "verificado": "3153555",
@@ -300,7 +517,7 @@
     "empresa": "Ferco Medical SAC",
     "puesto": "Ingeniero Electrónico (Equipos Médicos)",
     "modalidad": "Presencial - Miraflores",
-    "url_vacante": "https://pe.computrabajo.com/ofertas-de-trabajo/...",
+    "url_vacante": "https://candidato.pe.computrabajo.com/candidate/match/comparison/?im=C68417D7C45232B48E95173FADD5337F",
     "cliente_sector": "Sector Salud / Biomédica",
     "proyecto_detalle": "Mantenimiento, Instalación y Puesta en Marcha de Equipos Críticos",
     "stack_tecnico": ["Sistemas Biomédicos", "Trazabilidad Documental", "Mantenimiento Correctivo/Preventivo"],
@@ -333,7 +550,7 @@
     "empresa": "Marpatech SAC",
     "puesto": "Ingeniero de Soporte Técnico y Ventas",
     "modalidad": "Presencial - San Borja (S/. 2.5k + Comisiones)",
-    "url_vacante": "https://pe.computrabajo.com/ofertas-de-trabajo/...",
+    "url_vacante": "https://candidato.pe.computrabajo.com/candidate/match/comparison/?im=EE21A2E453411A9561386700F1C72C04",
     "cliente_sector": "Minería, Petróleo y Gas / Instrumentación",
     "proyecto_detalle": "Asesoría Técnica y Calibración de Equipos Industriales",
     "stack_tecnico": ["AMETEK/JOFRA", "Calibración", "AutoCAD", "MS Project", "Git"],
@@ -366,7 +583,7 @@
     "empresa": "Adecco (Seguridad Electrónica)",
     "puesto": "Jefe de Servicios / Technical Leader",
     "modalidad": "Presencial - Surco",
-    "url_vacante": "https://pe.computrabajo.com/ofertas-de-trabajo/...",
+    "url_vacante": "https://pe.computrabajo.com/trabajo-de-jefe-de-servicios#BBCDC920DE81094661373E686DCF3405",
     "cliente_sector": "CCTV, DACI, Accesos",
     "proyecto_detalle": "Gestión Estratégica de Proyectos y Mantenimiento",
     "stack_tecnico": ["CCTV", "DACI", "Control de Accesos", "HSE/HSSE", "Git"],
@@ -399,7 +616,7 @@
     "empresa": "Adecco (Sector Educación)",
     "puesto": "Especialista en Material Educativo / EdTech",
     "modalidad": "Presencial - Surco (S/. 3.3k + Viajes)",
-    "url_vacante": "https://pe.computrabajo.com/ofertas-de-trabajo/...",
+    "url_vacante": "https://pe.computrabajo.com/trabajo-de-especialista-en-venta#98FB9F145B88DBBF61373E686DCF3405",
     "cliente_sector": "Universidades / Educación Superior",
     "proyecto_detalle": "Consultoría y Ventas de Soluciones Digitales Académicas",
     "stack_tecnico": ["Salesforce CRM", "EdTech", "Presentaciones Técnicas", "Gestión de Datos"],
@@ -432,7 +649,7 @@
   "empresa": "Vendomática (Arca Continental)",
   "puesto": "Coordinador Electrónico / Telemetría",
   "modalidad": "Presencial - Callao (S/. 5,800 + Utilidades)",
-  "url_vacante": "https://pe.computrabajo.com/ofertas-de-trabajo/...",
+  "url_vacante": "https://pe.computrabajo.com/trabajo-de-coordinador-a-ingeniero#5A59CBDCDD9C460C61373E686DCF3405",
   "cliente_sector": "Vending / Consumo Masivo",
   "proyecto_detalle": "Gestión de Telemetría y Transmisión de Datos en Tiempo Real",
   "stack_tecnico": ["Telemetría", "SQL", "Git", "Firmware", "SAP"],
@@ -465,7 +682,7 @@
   "empresa": "AVATAR GLOBAL",
   "puesto": "Desarrollador Front End",
   "modalidad": "Remoto (Sede Lince)",
-  "url_vacante": "https://pe.computrabajo.com/ofertas-de-trabajo/...",
+  "url_vacante": "https://pe.computrabajo.com/trabajo-de-desarrollador-front-end#434423CC49AD67E061373E686DCF3405",
   "cliente_sector": "E-commerce / UI-UX",
   "proyecto_detalle": "Modernización de Look & Feel y Performance Web",
   "stack_tecnico": ["HTML5/CSS3", "JavaScript", "Responsive Design", "SEO Técnico"],
@@ -498,7 +715,7 @@
   "empresa": "Kelatos",
   "puesto": "Analista Programador / Automation",
   "modalidad": "100% Remoto (Freelance 1 año)",
-  "url_vacante": "https://pe.computrabajo.com/ofertas-de-trabajo/...",
+  "url_vacante": "https://pe.computrabajo.com/trabajo-de-analista-programador-de#97545E8B2C56429161373E686DCF3405",
   "cliente_sector": "Sistemas / Freelance Estable",
   "proyecto_detalle": "Automatización de Tareas y Orquestación de APIs",
   "stack_tecnico": ["Python", "Shell Scripts", "APIs REST", "Webhooks"],
@@ -531,7 +748,7 @@
   "empresa": "EXPERTIS",
   "puesto": "Programador Python – Automatización",
   "modalidad": "Presencial - Surco (Óvalo Monitor)",
-  "url_vacante": "https://pe.computrabajo.com/ofertas-de-trabajo/...",
+  "url_vacante": "https://pe.computrabajo.com/trabajo-de-programador-python-automatizacion#7B5F30DEDE30947561373E686DCF3405",
   "cliente_sector": "Automatización de Procesos Operativos",
   "proyecto_detalle": "Generación de Reportes y Gestión de Flujos de Datos",
   "stack_tecnico": ["Python", "Bash/Shell", "SQL", "Crontab"],
@@ -564,7 +781,7 @@
   "empresa": "RECSA PERÚ",
   "puesto": "Desarrollador Full Stack",
   "modalidad": "Remoto (Multinacional)",
-  "url_vacante": "https://pe.computrabajo.com/ofertas-de-trabajo/...",
+  "url_vacante": "https://pe.computrabajo.com/trabajo-de-desarrollador-full-stack#65D600DFF5BD26F361373E686DCF3405",
   "cliente_sector": "Servicios Financieros / Multinacional",
   "proyecto_detalle": "Contenedorización y Desarrollo de Microservicios",
   "stack_tecnico": ["Python", "Docker", "Linux", "PostgreSQL", "Makefile"],
@@ -597,7 +814,7 @@
   "empresa": "Universidad Autónoma del Perú",
   "puesto": "Analista Programador Senior",
   "modalidad": "Remoto (Sede VES)",
-  "url_vacante": "https://pe.computrabajo.com/ofertas-de-trabajo/...",
+  "url_vacante": "https://pe.computrabajo.com/trabajo-de-analista-programador-senior#65FB59EAC6BD051261373E686DCF3405",
   "cliente_sector": "Educación Superior / Academia",
   "proyecto_detalle": "Desarrollo de Sistemas Académicos e Integración de Web Services",
   "stack_tecnico": ["SQL Server", ".NET", "JavaScript", "Web Services (JSON)", "Git"],
@@ -630,7 +847,7 @@
   "empresa": "Adecco (Rubro Entretenimiento)",
   "puesto": "Desarrollador Frontend",
   "modalidad": "Presencial - Miraflores (S/. 4,000)",
-  "url_vacante": "https://pe.computrabajo.com/ofertas-de-trabajo/...",
+  "url_vacante": "https://pe.computrabajo.com/trabajo-de-desarrollador-frontend#509607C38304794D61373E686DCF3405",
   "cliente_sector": "Entretenimiento / Marketing Digital",
   "proyecto_detalle": "Maquetación Responsive y Optimización de Core Web Vitals",
   "stack_tecnico": ["HTML5/CSS3", "JavaScript", "UX/UI", "SEO Técnico", "Git"],
