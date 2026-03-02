@@ -13,3 +13,12 @@ Thumbs.db
 
 # Build
 build/
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+
+# Datos sensibles
+config.py
+secrets.json
