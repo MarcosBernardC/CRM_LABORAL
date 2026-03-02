@@ -1,11 +1,12 @@
 [
     {
     "id": 20,
+    "verificado": "3153555",
     "fecha": "02 de marzo de 2026",
     "empresa": "BC Tecnología (Consultoría TI - Sector Banca)",
     "puesto": "Desarrollador Web Python/HTML5 (Migración APK)",
     "modalidad": "Híbrido - Las Condes / Lima",
-    "url_vacante": "https://www.getonbrd.com/jobs/bc-tecnologia-desarrollador-web-python-html5",
+    "url_vacante": "https://www.getonbrd.com/applications#50e4a14f3221e718f4c9888ec108a409/job",
     "cliente_sector": "Sector Financiero / Seguros / Gobierno",
     "proyecto_detalle": "Migración de funcionalidades APK a plataformas Web",
     "stack_tecnico": ["Python", "SQL Server", "BigQuery", "ETLs", "GitLab", "HTML5"],
@@ -32,11 +33,12 @@
 
     {
     "id": 19,
+    "verificado": "166899d",
     "fecha": "02 de marzo de 2026",
     "empresa": "Data Quality Co-op (DQC)",
     "puesto": "Integrations Developer",
     "modalidad": "Remoto (Sudamérica) - $3,000 - $4,000 USD",
-    "url_vacante": "https://www.getonbrd.com/jobs/dqc-integrations-developer",
+    "url_vacante": "https://www.getonbrd.com/applications#473c660abe5294697f1d92184d597021/job",
     "cliente_sector": "Integridad de Datos y Detección de Fraude",
     "proyecto_detalle": "Optimización de Pipelines ETL y Captura de Datos de Alta Fidelidad",
     "stack_tecnico": [
@@ -71,11 +73,12 @@
 
     {
     "id": 18,
+    "verificado": "1248334",
     "fecha": "02 de marzo de 2026",
     "empresa": "Alluxi (Software Factory)",
     "puesto": "Arquitecto de Soluciones Senior Python & AWS",
     "modalidad": "Remoto (LATAM/USA) - $3,000 - $3,500 USD",
-    "url_vacante": "https://www.getonbrd.com/jobs/alluxi-arquitecto-de-soluciones-senior",
+    "url_vacante": "https://www.getonbrd.com/applications#5691acef978e82c935bcf304bff01bb9",
     "cliente_sector": "Software Factory - Clientes Enterprise",
     "proyecto_detalle": "Diseño de Arquitecturas Cloud-Native e Integración IoT/Edge",
     "stack_tecnico": [
@@ -110,6 +113,7 @@
 
     {
     "id": 17,
+    "verificado": "7667a79",
     "fecha": "02 de marzo de 2026",
     "empresa": "Inetum Perú SAC",
     "puesto": "Analista Jr de Gestión de Proyectos - Integratel",
@@ -145,6 +149,7 @@
     },
     {
     "id": 16,
+    "verificado": "d113784",
     "fecha": "02 de marzo de 2026",
     "empresa": "Gilat Satellite Networks",
     "puesto": "Analista de Proyectos (Operations & Supply Chain)",
@@ -181,6 +186,7 @@
 
     {
     "id": 15,
+    "verificado": "cce7b61",
     "fecha": "02 de marzo de 2026",
     "empresa": "Entel Perú",
     "puesto": "Coordinador/a de Proyectos (Temporal)",
@@ -217,6 +223,7 @@
 
     {
     "id": 14,
+    "verificado": "8df905c",
     "fecha": "02 de marzo de 2026",
     "empresa": "Gilat Satellite Networks",
     "puesto": "Coordinador de Proyectos de Sistemas de Información",
@@ -250,9 +257,9 @@
         "Diferencial: Mencionar que la formación en Electrónica/Mecatrónica es solicitada explícitamente."
     ]
     },
-
     {
     "id": 13,
+    "verificado": "84ec497",
     "fecha": "02 de marzo de 2026",
     "empresa": "Onyx (Sector Inmobiliario)",
     "puesto": "Coordinador de TI",
@@ -286,44 +293,9 @@
         "Portafolio: Usar tu web moderna como prueba de que puedes liderar el proyecto de la App."
     ]
     },
-
     {
     "id": 12,
-    "fecha": "02 de marzo de 2026",
-    "empresa": "Caja Piura",
-    "puesto": "Analista de Proyectos de TI",
-    "modalidad": "Presencial - Miraflores (S/. 6k - 7k)",
-    "url_vacante": "https://pe.indeed.com/viewjob?jk=3072496655418127",
-    "cliente_sector": "Finanzas / Banca",
-    "proyecto_detalle": "Transformación Digital y Automatización de Procesos",
-    "stack_tecnico": ["Gestión de Proyectos", "Automatización", "Power Platform", "Análisis de Datos"],
-    "prioridad": "Alta",
-    "estado": "Postulado",
-    "estrategia_completa": [
-        {
-        "titulo": "Transformación Digital y Automatización",
-        "contenido": "Experiencia en la implementación de soluciones tecnológicas que optimizan procesos y reducen carga operativa."
-        },
-        {
-        "titulo": "Gestión de Proyectos y Stakeholders",
-        "contenido": "Capacidad para liderar proyectos de TI, gestionar expectativas de usuarios y asegurar la entrega de valor al negocio."
-        },
-        {
-        "titulo": "Análisis de Datos y Reportabilidad",
-        "contenido": "Habilidad para transformar datos en información estratégica, apoyando la toma de decisiones financieras."
-        },
-        {
-        "titulo": "Perfil Híbrido y Adaptabilidad",
-        "contenido": "Visión integral de sistemas y procesos que permite identificar oportunidades de mejora en entornos financieros dinámicos."
-        }
-    ],
-    "notas_adicionales": [
-        "Sueldo: Indicar expectativa entre S/. 6,500 y S/. 7,000.",
-        "Enfoque: Resaltar experiencia en automatización de procesos repetitivos."
-    ]
-    },
-    {
-    "id": 12,
+    "verificado": "16dd7e4",
     "fecha": "02 de marzo de 2026",
     "empresa": "Ferco Medical SAC",
     "puesto": "Ingeniero Electrónico (Equipos Médicos)",
@@ -356,6 +328,7 @@
 
     {
     "id": 11,
+    "verificado": "51e2ff6",
     "fecha": "02 de marzo de 2026",
     "empresa": "Marpatech SAC",
     "puesto": "Ingeniero de Soporte Técnico y Ventas",
@@ -388,6 +361,7 @@
 
     {
     "id": 10,
+    "verificado": "a0bec3a",
     "fecha": "02 de marzo de 2026",
     "empresa": "Adecco (Seguridad Electrónica)",
     "puesto": "Jefe de Servicios / Technical Leader",
@@ -420,6 +394,7 @@
 
     {
     "id": 9,
+    "verificado": "30662a2",
     "fecha": "02 de marzo de 2026",
     "empresa": "Adecco (Sector Educación)",
     "puesto": "Especialista en Material Educativo / EdTech",
@@ -452,6 +427,7 @@
 
     {
   "id": 8,
+  "verificado": "af0cb76",
   "fecha": "02 de marzo de 2026",
   "empresa": "Vendomática (Arca Continental)",
   "puesto": "Coordinador Electrónico / Telemetría",
@@ -484,6 +460,7 @@
 
 {
   "id": 7,
+  "verificado": "28591ee",
   "fecha": "02 de marzo de 2026",
   "empresa": "AVATAR GLOBAL",
   "puesto": "Desarrollador Front End",
@@ -516,6 +493,7 @@
 
 {
   "id": 6,
+  "verificado": "244777f",
   "fecha": "02 de marzo de 2026",
   "empresa": "Kelatos",
   "puesto": "Analista Programador / Automation",
@@ -548,6 +526,7 @@
 
 {
   "id": 5,
+  "verificado": "af7dc02",
   "fecha": "02 de marzo de 2026",
   "empresa": "EXPERTIS",
   "puesto": "Programador Python – Automatización",
@@ -580,6 +559,7 @@
 
 {
   "id": 4,
+  "verificado": "00362f3",
   "fecha": "02 de marzo de 2026",
   "empresa": "RECSA PERÚ",
   "puesto": "Desarrollador Full Stack",
@@ -612,6 +592,7 @@
 
 {
   "id": 3,
+  "verificado": "9b6d812",
   "fecha": "02 de marzo de 2026",
   "empresa": "Universidad Autónoma del Perú",
   "puesto": "Analista Programador Senior",
@@ -644,6 +625,7 @@
 
 {
   "id": 2,
+  "verificado": "aea761d",
   "fecha": "02 de marzo de 2026",
   "empresa": "Adecco (Rubro Entretenimiento)",
   "puesto": "Desarrollador Frontend",
@@ -672,7 +654,38 @@
     "Portafolio: Mostrar la versión elegante y moderna ya desplegada en GitHub Pages.",
     "Mentalidad de Ingeniero: Aplicar optimización de procesos al desarrollo frontend."
   ]
+},
+
+{
+  "id": 1,
+  "verificado": "0406f8b",
+  "fecha": "02 de marzo de 2026",
+  "empresa": "Konnect",
+  "puesto": "React Developer",
+  "modalidad": "Remoto (S/. 3,500)",
+  "url_vacante": "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programador-react-remoto-full-time-o-part-time-en-santiago-de-surco-453A9D9D45A9F3CF61373E686DCF3405?fgoa=true",
+  "cliente_sector": "Software / Desarrollo Web",
+  "proyecto_detalle": "Mantenimiento y Evolución de Aplicaciones en React",
+  "stack_tecnico": ["React", "JavaScript", "HTML5/CSS3", "Git"],
+  "prioridad": "Media",
+  "estado": "Postulado",
+  "estrategia_completa": [
+    {
+      "titulo": "Mantenimiento y Orden Estructural",
+      "contenido": "Disciplina en el manejo de código existente y documentación de cambios, evitando errores humanos mediante el uso riguroso de Git."
+    },
+    {
+      "titulo": "Adaptabilidad Técnica",
+      "contenido": "Base sólida en lógica de programación. Capacidad de aprendizaje acelerado para integrarme al flujo de trabajo específico en React de la empresa."
+    },
+    {
+      "titulo": "Resolución Metódica de Problemas",
+      "contenido": "Enfoque en soluciones duraderas: análisis en entornos controlados y revisión de historial de versiones para evitar 'parches' temporales."
+    }
+  ],
+  "notas_adicionales": [
+    "Portafolio: Resaltar la versión móvil elegante desplegada en GitHub Pages.",
+    "Soft Skills: Enfatizar la capacidad autónoma y responsabilidad como bachiller en ingeniería."
+  ]
 }
-
-
 ]
