@@ -79,7 +79,7 @@
 
         async function loadPostulaciones() {
             try {
-                const response = await fetch('http://127.0.0.1:8000/postulaciones');
+                const response = await fetch('https://crm-laboral.onrender.com/postulaciones');
                 const datos = await response.json();
 
                 // Mapeamos los datos de Supabase al formato que espera tu UI
