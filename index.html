@@ -79,26 +79,31 @@
 
         async function loadPostulaciones() {
             try {
-                const response = await fetch('data/postulaciones.json');
-                const data = await response.json();
-                currentPostulaciones = Array.isArray(data) ? data : [data];
+                const response = await fetch('http://127.0.0.1:8000/postulaciones');
+                const datos = await response.json();
+
+                // Mapeamos los datos de Supabase al formato que espera tu UI
+                currentPostulaciones = datos.map(p => ({
+                    id: p.id.substring(0, 8), // Usamos parte del UUID de Supabase
+                    empresa: p.empresa || "Sin Empresa",
+                    puesto: p.puesto || "No especificado",
+                    prioridad: p.prioridad || "Media", // Valor por defecto si no existe en la DB
+                    fecha: p.fecha_postulacion || "Reciente",
+                    url_vacante: p.enlace_oferta || "#",
+                    // Si el stack técnico es un string en Supabase, lo convertimos a lista
+                    stack_tecnico: p.stack_tecnico ? (Array.isArray(p.stack_tecnico) ? p.stack_tecnico : p.stack_tecnico.split(',')) : ["General"],
+                    cliente_sector: p.plataforma || "No especificado",
+                    proyecto_detalle: p.notas || "Sin detalles adicionales",
+                    // Estructura mínima para que el modal no falle
+                    estrategia_completa: p.estrategia_completa || [{titulo: "General", contenido: p.notas || "Sin estrategia definida"}],
+                    notas_adicionales: p.notas_adicionales || [p.estado || "Estado: Pendiente"]
+                }));
+
                 renderStats(currentPostulaciones);
                 renderCards(currentPostulaciones);
-                
-                // Listener para el buscador
-                document.getElementById('searchInput').addEventListener('input', (e) => {
-                    const term = e.target.value.toLowerCase();
-                    const filtered = currentPostulaciones.filter(job => 
-                        job.empresa.toLowerCase().includes(term) ||
-                        job.puesto.toLowerCase().includes(term) ||
-                        job.stack_tecnico.some(t => t.toLowerCase().includes(term)) ||
-                        job.cliente_sector.toLowerCase().includes(term)
-                    );
-                    renderCards(filtered);
-                    renderStats(filtered); // Actualiza el contador según lo filtrado
-                });
             } catch (error) {
-                console.error("Error cargando el JSON:", error);
+                console.error("Error conectando con la API de Marcos:", error);
+                document.getElementById('app').innerHTML = `<p class="text-red-500 text-center col-span-full">Error al conectar con el servidor local (Uvicorn).</p>`;
             }
         }
 
@@ -120,7 +125,6 @@
             }
 
             container.innerHTML = data.map(job => {
-                // Lógica de colores de prioridad
                 const priorityColor = job.prioridad === 'Máxima' ? 'bg-red-100 text-red-700 border-red-200' : 
                                     job.prioridad === 'Alta' ? 'bg-amber-100 text-amber-700 border-amber-200' : 
                                     'bg-blue-100 text-blue-700 border-blue-200';
@@ -142,7 +146,7 @@
 
                         <div class="grid grid-cols-2 gap-3 mt-4">
                             <a href="${job.url_vacante}" target="_blank" class="text-center py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl font-bold transition-colors text-xs uppercase tracking-wider">Ver Vacante</a>
-                            <button onclick="openHelp(${job.id})" class="text-center py-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold transition-all text-xs uppercase tracking-wider shadow-lg shadow-blue-200">
+                            <button onclick="openHelp('${job.id}')" class="text-center py-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold transition-all text-xs uppercase tracking-wider shadow-lg shadow-blue-200">
                                 <i class="fa-solid fa-lightbulb mr-1"></i> Ayuda
                             </button>
                         </div>
@@ -150,6 +154,11 @@
                 `;
             }).join('');
         }
+
+        // Asegúrate de mantener tus funciones de openHelp(id), closeModal() y la lógica del buscador.
+        // Solo asegúrate de que openHelp acepte el ID como String si usas el UUID de Supabase.
+
+        document.addEventListener('DOMContentLoaded', loadPostulaciones);
 
         function openHelp(id) {
             const job = currentPostulaciones.find(j => j.id === id);
@@ -206,6 +215,18 @@
         }
 
         loadPostulaciones();
+
+        // Lógica del Buscador
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            const filtered = currentPostulaciones.filter(job => 
+                job.empresa.toLowerCase().includes(searchTerm) ||
+                job.puesto.toLowerCase().includes(searchTerm) ||
+                job.stack_tecnico.some(tech => tech.toLowerCase().includes(searchTerm))
+            );
+            renderCards(filtered);
+            renderStats(filtered);
+        });
     </script>
 </body>
 </html>

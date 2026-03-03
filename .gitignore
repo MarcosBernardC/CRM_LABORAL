@@ -24,3 +24,4 @@ config.py
 secrets.json
 
 venv/
+*.pyc
