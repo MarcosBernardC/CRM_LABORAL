@@ -1,5 +1,11 @@
 # CRM Laboral: Engineering Solutions Dashboard
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
 > **"From Hardware Design to Data Intelligence"**
 
 Este proyecto es un ecosistema de gestión de datos diseñado para automatizar y centralizar el seguimiento de procesos de selección técnica. Combina la precisión de la ingeniería electrónica con arquitecturas modernas de software.
@@ -31,4 +37,19 @@ El proyecto sigue una estructura modular para asegurar la escalabilidad y el man
 
 ---
 
-_Desarrollado por Marcos Bernard — Ingeniero Electrónico_
+---
+
+## ⚡ Conectemos
+
+Como **Ingeniero Electrónico** especializado en el desarrollo de software y automatización, busco integrar el rigor del diseño de sistemas con la agilidad de las soluciones modernas en la nube.
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MarcosBernardC)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tu-usuario-linkedin)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://marcosbernardc.github.io/PortafolioBernardC/)
+
+**📧 Contacto Directo:** [bernardlab.dev@gmail.com](mailto:bernardlab.dev@gmail.com)  
+**📍 Ubicación:** Lima, Perú (Disponible para roles Remotos / Híbridos)
+
+---
+
+_“Engineering is about solving problems with the best tools available, whether they are physical sensors or cloud-based microservices.”_
