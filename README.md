@@ -44,7 +44,7 @@ El proyecto sigue una estructura modular para asegurar la escalabilidad y el man
 Como **Ingeniero Electrónico** especializado en el desarrollo de software y automatización, busco integrar el rigor del diseño de sistemas con la agilidad de las soluciones modernas en la nube.
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MarcosBernardC)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tu-usuario-linkedin)
+
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://marcosbernardc.github.io/PortafolioBernardC/)
 
 **📧 Contacto Directo:** [bernardlab.dev@gmail.com](mailto:bernardlab.dev@gmail.com)  
