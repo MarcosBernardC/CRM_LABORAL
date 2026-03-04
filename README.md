@@ -1,30 +1,34 @@
-# 💼 CRM Laboral - Bernard I+D Lab
+# CRM Laboral: Engineering Solutions Dashboard
 
-![License](https://img.shields.io/badge/license-MIT-blue)
-![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![Status](https://img.shields.io/badge/Búsqueda-Activa-green)
+> **"From Hardware Design to Data Intelligence"**
 
-Sistema de gestión y seguimiento de procesos de selección para Ingeniería Electrónica y Ciencia de Datos. Diseñado para centralizar vacantes de **Computrabajo, Indeed y Getonbrd**.
+Este proyecto es un ecosistema de gestión de datos diseñado para automatizar y centralizar el seguimiento de procesos de selección técnica. Combina la precisión de la ingeniería electrónica con arquitecturas modernas de software.
 
-## 🚀 Stack Tecnológico
+## 🏗️ Arquitectura del Sistema
 
-- **Frontend:** HTML5, CSS3 (Diseño Moderno/Móvil), JavaScript.
-- **Backend (In-Dev):** FastAPI (Python) para la gestión de APIs.
-- **Base de Datos:** PostgreSQL (vía Supabase/Neon.tech) - _Migrando desde JSON_.
-- **Despliegue:** GitHub Pages.
+El proyecto sigue una estructura modular para asegurar la escalabilidad y el mantenimiento:
 
-## 📊 Pipeline de Postulaciones (Resumen)
+- **`/backend`**: Lógica de servidor y API construida con Python/FastAPI.
+- **`/data_pipeline`**: Motores de ETL (Extract, Transform, Load) para la limpieza y carga de datos masivos.
+- **`/database`**: Versionamiento de esquemas SQL y migraciones (Supabase/PostgreSQL).
+- **`/docs`**: Interfaz de usuario (Frontend) servida a través de GitHub Pages.
+- **`/research`**: Documentación técnica, investigación en LaTeX y archivos de ingeniería.
 
-| Fecha      | Empresa   | Puesto             | Estado        | Prioridad |
-| :--------- | :-------- | :----------------- | :------------ | :-------- |
-| 01/03/2026 | Konnect   | Frontend Developer | 📝 Preparando | Alta      |
-| 02/03/2026 | Transvial | Ing. Telemetría    | 🚀 Postulado  | Crítica   |
+## 🛠️ Tech Stack
+
+| Módulo              | Tecnologías                                      |
+| :------------------ | :----------------------------------------------- |
+| **Frontend**        | HTML5, Tailwind CSS, JavaScript (Fetch API)      |
+| **Backend**         | Python 3.14+, FastAPI                            |
+| **Base de Datos**   | Supabase (PostgreSQL) con almacenamiento JSONB   |
+| **Infraestructura** | GitHub Pages, Render, Linux (Fedora/EndeavourOS) |
+
+## 🚀 Características Principales
+
+- **Data Persistence:** Integración en tiempo real con Supabase para almacenamiento de estados de postulación.
+- **Trazabilidad de Ingeniería:** Registro de estrategias basadas en principios SOLID y patrones de diseño.
+- **Responsive Design:** Dashboard optimizado para monitoreo desde dispositivos móviles y escritorio.
 
 ---
 
-## 🛡️ Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver archivo [LICENSE](LICENSE) para más detalles.
-
-_Desarrollado con precisión por Bernard I+D Lab © 2026_
+_Desarrollado por Marcos Bernard — Ingeniero Electrónico_
