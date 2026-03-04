@@ -1,0 +1,991 @@
+[
+    {
+        "empresa": "KasNet (Red Digital del Perú)",
+        "puesto": "Ingeniero de Datos",
+        "modalidad": "Híbrido (Surco - 2 días remoto)",
+        "url_vacante": "https://pe.computrabajo.com/trabajo-de-ingeniero-de-datos#1C0D95621EE1A2B761373E686DCF3405",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Diseño e implementación de arquitecturas Data Lake en AWS, orquestación de flujos Batch/Streaming y gestión de catálogos de datos.",
+        "stack_tecnico": [
+            "AWS (S3, Glue, Lambda, Athena)",
+            "Python",
+            "SQL",
+            "NoSQL (DynamoDB)",
+            "Terraform",
+            "PySpark"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Arquitectura de Datos y Cloud (AWS)",
+                "contenido": "Capacidad para diseñar capas de datos (Raw, Stage, Analytics) utilizando servicios de AWS. Mi formación en ingeniería me otorga el rigor necesario para configurar arquitecturas escalables y seguras, alineadas con los estándares de KasNet."
+            },
+            {
+                "titulo": "Automatización y Orquestación de Flujos",
+                "contenido": "Experiencia liderando la optimización de procesos técnicos (Redes Ópticas). Aplicación de lógica de ingeniería para la orquestación de pipelines mediante AWS Lambda y Step Functions, asegurando integridad en el procesamiento Batch y Streaming."
+            },
+            {
+                "titulo": "Gestión de Datos y Modelamiento",
+                "contenido": "Dominio de bases de datos relacionales (PostgreSQL) y no relacionales. Mi experiencia con Python y mi formación en el Bootcamp de Henry (Data Science) garantizan modelos de datos optimizados para análisis de alto impacto."
+            }
+        ],
+        "notas_adicionales": [
+            "Diferencial Local: Residencia en Surco facilita la asistencia presencial en Chacarilla según el esquema híbrido.",
+            "Proactividad Técnica: Resaltar el uso de GitHub para control de versiones y el CRM propio como prueba de capacidad de desarrollo e implementación de soluciones."
+        ],
+        "prioridad": "Alta",
+        "cliente_sector": "Fintech / Red de Agentes Corresponsales",
+        "verificado": "CT-KASNET-06"
+    },
+    {
+        "empresa": "TRANSVIAL LIMA SAC",
+        "puesto": "Ingeniero de Automatización, Datos e IA",
+        "modalidad": "100% Remoto",
+        "url_vacante": "https://pe.computrabajo.com/trabajo-de-ingeniero-de-base-de-datos-remoto-en-lima-A62E8A68B2570D0961373E686DCF3405",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Liderar la modernización de operaciones mediante el desarrollo de pipelines de datos integrando telemetría, reservas y modelos predictivos de IA.",
+        "stack_tecnico": [
+            "PostgreSQL",
+            "Supabase",
+            "Python",
+            "APIs REST",
+            "Workflows",
+            "IA Generativa",
+            "Power BI"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Sinergia Electrónica-Datos (Telemetría)",
+                "contenido": "Como Ingeniero Electrónico, poseo una ventaja competitiva para entender y construir pipelines que integren telemetría de flota con bases de datos operativas. Mi tesis en Edge Computing es la prueba directa de mi capacidad para gestionar datos desde el origen técnico hasta la nube."
+            },
+            {
+                "titulo": "Automatización con Python y APIs",
+                "contenido": "Experiencia probada en Redes Ópticas optimizando flujos de 50 a 5 personas mediante scripts y PyQt6. Aplicación de lógica de integración vía APIs REST y Webhooks para conectar CRM, contabilidad y operaciones en flujos automáticos."
+            },
+            {
+                "titulo": "Modelado Predictivo y Revenue Management",
+                "contenido": "Uso de herramientas de Data Science (Pandas, SQL) para desarrollar modelos de ocupación, pricing y demanda. Capacidad para implementar soluciones de IA generativa y dashboards automatizados que aseguren trazabilidad y soporte estratégico."
+            }
+        ],
+        "notas_adicionales": [
+            "Diferencial Clave: El CRM laboral propio en HTML/JS es evidencia de la capacidad de crear herramientas de gestión desde cero.",
+            "Entorno Remoto: Resaltar la disciplina de trabajo demostrada en plataformas como Fiverr y Upwork para garantizar autonomía total."
+        ],
+        "prioridad": "Crítica",
+        "cliente_sector": "Transporte Masivo y Logística Tecnológica",
+        "verificado": "CT-TRANSVIAL-05"
+    },
+    {
+        "empresa": "Parque del Recuerdo",
+        "puesto": "Científico de Datos",
+        "modalidad": "Híbrido (Surco - Chacarilla / Remoto)",
+        "url_vacante": "https://pe.computrabajo.com/trabajo-de-cientifico-de-datos-surco-en-lima-B48825006D28A25261373E686DCF3405",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Construcción de modelos predictivos (Forecast), segmentación de clientes y automatización de pipelines de datos (ETL).",
+        "stack_tecnico": [
+            "Python",
+            "SQL Avanzado",
+            "Machine Learning",
+            "ETL",
+            "Power BI",
+            "Estadística Avanzada"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Lógica Predictiva y Forecast",
+                "contenido": "Aplicación de modelos de clasificación y series de tiempo para proyecciones de demanda (Forecast). Mi tesis en monitoreo en tiempo real me otorga una base sólida para el manejo de flujos de datos dinámicos."
+            },
+            {
+                "titulo": "Optimización de Pipelines (ETL)",
+                "contenido": "Capacidad para la extracción, transformación y carga de datos desde múltiples fuentes. Mi formación en ingeniería asegura procesos eficientes, seguros y con alta trazabilidad de la información crítica."
+            },
+            {
+                "titulo": "Análisis y Proactividad en Surco",
+                "contenido": "Perfil proactivo con capacidad de síntesis para generar insights accionables. La cercanía a las oficinas en Chacarilla garantiza una integración fluida en el esquema híbrido y una comunicación asertiva con el equipo técnico."
+            }
+        ],
+        "notas_adicionales": [
+            "Diferencial: El Bootcamp de Henry valida mis competencias en Machine Learning y Deep Learning frente al requisito de analítica avanzada.",
+            "Competencias Blandas: Resaltar la empatía y la visión estratégica en un rubro de servicios donde el dato debe humanizarse para la toma de decisiones."
+        ],
+        "prioridad": "Alta",
+        "cliente_sector": "Servicios Exequiales y Previsión",
+        "verificado": "CT-RECUERDO-04"
+    },
+    {
+        "empresa": "Grupo Intercorp (Super Food Holding)",
+        "puesto": "Científico de Datos",
+        "modalidad": "Remoto - Tiempo completo",
+        "url_vacante": "https://pe.computrabajo.com/trabajo-de-cientifico-de-datos-remoto-en-lima-A62E8A68B2570D0961373E686DCF3405",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Modelado de comportamiento del cliente, Machine Learning para retención y despliegue de soluciones con IA Generativa (Prompt Engineering).",
+        "stack_tecnico": [
+            "Python",
+            "SQL",
+            "Machine Learning",
+            "Deep Learning",
+            "Power BI",
+            "GCP",
+            "MLOps"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Modelado Predictivo y Machine Learning",
+                "contenido": "Uso de los conocimientos adquiridos en el Bootcamp de Data Science (Henry) para diseñar e implementar modelos de clasificación y segmentación de clientes, enfocados en detectar oportunidades de crecimiento y retención."
+            },
+            {
+                "titulo": "Insights Estratégicos y Storytelling",
+                "contenido": "Capacidad para traducir datos complejos en dashboards de Power BI que impacten en la toma de decisiones de marketing. Mi experiencia en I+D garantiza reportes técnicos precisos y orientados a resultados de negocio."
+            },
+            {
+                "titulo": "Innovación con IA y Automatización",
+                "contenido": "Liderazgo en la implementación de pruebas de concepto con IA (Prompt Engineering) y adopción de prácticas MLOps, asegurando que los modelos no solo sean precisos, sino también escalables y mantenibles."
+            }
+        ],
+        "notas_adicionales": [
+            "Diferencial: El perfil de Ingeniero Electrónico aporta una visión de procesos y optimización matemática que complementa el análisis estadístico puro.",
+            "Criterio de Selección: Resaltar que ya cuento con la tesis sustentada y certificaciones en SQL y Power BI (Zegel IPAE)."
+        ],
+        "prioridad": "Muy Alta",
+        "cliente_sector": "Retail / Consumo Masivo (plazaVea, Mass, Makro)",
+        "verificado": "CT-INTERCORP-03"
+    },
+    {
+        "empresa": "CIVIL MIND LLC",
+        "puesto": "Desarrollador Senior CSS / JavaScript (Reportes Técnicos)",
+        "modalidad": "Remoto - Part-time / Flexible",
+        "url_vacante": "https://pe.computrabajo.com/trabajo-de-desarrollador-senior-frontend#161BCC1C31654DBB61373E686DCF3405",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Optimización y mantenimiento de reportes técnicos HTML con conversión de alta fidelidad a PDF.",
+        "stack_tecnico": [
+            "JavaScript",
+            "CSS3",
+            "HTML5",
+            "Librerías de Gráficos JS",
+            "Conversión PDF"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Fidelidad Visual y Documentación de Ingeniería",
+                "contenido": "Dominio de la maquetación avanzada para asegurar que los reportes técnicos mantengan integridad total al convertirse a PDF. Mi experiencia con LaTeX para manuales industriales garantiza un criterio estético y técnico superior."
+            },
+            {
+                "titulo": "Lógica de Gráficos para Datos Técnicos",
+                "contenido": "Capacidad para implementar y extender librerías de gráficos en JS aplicadas a cálculos de ingeniería. Como Ingeniero Electrónico, entiendo la precisión requerida en la visualización de datos estructurales y geotécnicos."
+            },
+            {
+                "titulo": "Mentalidad de Producto e Infraestructura",
+                "contenido": "Uso de Git y buenas prácticas de código para mantener y escalar la base de código existente. Enfoque en autonomía y comunicación asertiva para entornos de trabajo remoto por objetivos."
+            }
+        ],
+        "notas_adicionales": null,
+        "prioridad": "Alta",
+        "cliente_sector": "Ingeniería Civil y Consultoría Estructural",
+        "verificado": "CT-CIVILMIND-02"
+    },
+    {
+        "empresa": "Altimea SAC",
+        "puesto": "Desarrollador Python (Django/Vue)",
+        "modalidad": "Remoto - Lima (9 am - 1 pm)",
+        "url_vacante": "https://pe.computrabajo.com/trabajo-de-desarrollador-python-en-lima-A3728956A76E838F61373E686DCF3405",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Implementación y arquitectura de microservicios con enfoque en gamificación.",
+        "stack_tecnico": [
+            "Python",
+            "Django",
+            "Vue JS",
+            "API REST",
+            "Docker",
+            "AWS",
+            "SOLID"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Arquitectura y Patrones de Diseño",
+                "contenido": "Aplicación de principios SOLID y patrones de diseño en el desarrollo de microservicios. Mi formación en ingeniería garantiza código escalable, modular y fácil de mantener, ideal para arquitecturas orientadas a servicios."
+            },
+            {
+                "titulo": "Dominio Fullstack con Python y Vue JS",
+                "contenido": "Capacidad para integrar el backend en Django con interfaces reactivas en Vue JS. Enfoco el desarrollo en la experiencia de usuario (UX) moderna, asegurando que las funcionalidades de gamificación sean fluidas y atractivas."
+            },
+            {
+                "titulo": "Optimización de Flujos y Productividad",
+                "contenido": "Experiencia previa optimizando flujos de trabajo técnicos. Mi enfoque en el bloque matutino garantiza una alta densidad de entrega y cumplimiento de sprints en entornos de consultoría ágil."
+            }
+        ],
+        "notas_adicionales": [
+            "Horario Estratégico: Resaltar que el part-time permite una entrega focalizada de alto rendimiento.",
+            "Mentalidad de Ingeniero: Mencionar la tesis como prueba de capacidad para resolver problemas de arquitectura compleja."
+        ],
+        "prioridad": "Alta",
+        "cliente_sector": "Consultoría de Tecnología e Innovación",
+        "verificado": "CT-ALTIMEA-01"
+    },
+    {
+        "empresa": "CIVIL MIND LLC, SUCURSAL DEL PERÚ",
+        "puesto": "Senior CSS / JavaScript (Reportes de Ingeniería)",
+        "modalidad": "Remoto - Freelance / Tiempo Parcial",
+        "url_vacante": "https://pe.computrabajo.com/trabajo-de-desarrollador-senior-css-javascript-en-miraflores-ED7193F756B72EDC61373E686DCF3405",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Mantenimiento y optimización de generador de reportes técnicos HTML a PDF.",
+        "stack_tecnico": [
+            "CSS3",
+            "JavaScript",
+            "HTML to PDF",
+            "LaTeX",
+            "Visualización de Datos"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Rigor en Documentación Técnica",
+                "contenido": "Como Ingeniero Electrónico con experiencia en LuaLaTeX, entiendo la importancia de la precisión en reportes de ingeniería. Garantizo una maquetación impecable en la conversión de HTML a PDF, respetando escalas y normativas técnicas."
+            },
+            {
+                "titulo": "Visualización de Datos Industriales",
+                "contenido": "Experiencia traduciendo datos de sensores y cálculos complejos a gráficos interpretables. Utilizo JavaScript para extender la funcionalidad de reportes existentes, asegurando que la data técnica sea clara para ingenieros y clientes finales."
+            },
+            {
+                "titulo": "Mantenimiento de Código Legacy y Buenas Prácticas",
+                "contenido": "Capacidad para auditar y mejorar bases de código existentes. Mi metodología de trabajo incluye trazabilidad total y optimización de estilos CSS para asegurar compatibilidad y fidelidad visual multiplataforma."
+            }
+        ],
+        "notas_adicionales": [
+            "Afinidad Académica: Resaltar que hablas el idioma de la ingeniería (estructuras, cálculos, precisión).",
+            "Diferenciador LaTeX: Mencionar que tu dominio de LaTeX te da un criterio de diseño de documentos superior al de un desarrollador web promedio."
+        ],
+        "prioridad": "Crítica",
+        "cliente_sector": "Ingeniería Civil / Geotecnia / Análisis Estructural",
+        "verificado": "CT-CIVILMIND-02"
+    },
+    {
+        "empresa": "BC Tecnología (Consultoría TI - Sector Banca)",
+        "puesto": "Desarrollador Web Python/HTML5 (Migración APK)",
+        "modalidad": "Híbrido - Las Condes / Lima",
+        "url_vacante": "https://www.getonbrd.com/applications#50e4a14f3221e718f4c9888ec108a409/job",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Migración de funcionalidades APK a plataformas Web",
+        "stack_tecnico": [
+            "Python",
+            "SQL Server",
+            "BigQuery",
+            "ETLs",
+            "GitLab",
+            "HTML5"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Desarrollo Fullstack con Python y HTML5",
+                "contenido": "Cuento con experiencia en el desarrollo de funcionalidades de gestión utilizando Python para el Backend y HTML5 para el Frontend. Mi capacidad para integrar ambas capas asegura soluciones web fluidas, escalables y alineadas a los estándares corporativos bancarios."
+            },
+            {
+                "titulo": "Experiencia en Migración y ETLs",
+                "contenido": "Domino el proceso de migración de funcionalidades asegurando la integridad de los datos. Mi manejo de SQL Server, BigQuery y procesos ETL me permite realizar transiciones desde aplicaciones móviles a web sin pérdida de rendimiento, manteniendo la continuidad operativa."
+            },
+            {
+                "titulo": "Trazabilidad Documental y Gobierno de Datos",
+                "contenido": "Entiendo el rigor de los entornos regulados. Utilizo metodologías estructuradas para la elaboración de documentación funcional y técnica, garantizando claridad para los equipos de operación y negocio, y facilitando las auditorías de gobierno de datos."
+            }
+        ],
+        "notas_adicionales": [
+            "Cultura Bancaria: Resaltar el enfoque en seguridad y buenas prácticas de codificación (GitLab).",
+            "Perfil Híbrido: Mencionar que tu base en electrónica te da una visión de bajo nivel ideal para optimizar migraciones APK."
+        ],
+        "prioridad": "Alta",
+        "cliente_sector": "Sector Financiero / Seguros / Gobierno",
+        "verificado": "3153555"
+    },
+    {
+        "empresa": "Data Quality Co-op (DQC)",
+        "puesto": "Integrations Developer",
+        "modalidad": "Remoto (Sudamérica) - $3,000 - $4,000 USD",
+        "url_vacante": "https://www.getonbrd.com/applications#473c660abe5294697f1d92184d597021/job",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Optimización de Pipelines ETL y Captura de Datos de Alta Fidelidad",
+        "stack_tecnico": [
+            "Python (ETL)",
+            "REST APIs",
+            "SQL",
+            "Serverless",
+            "V-Modell XT",
+            "LaTeX"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Pipeline de Datos y Automatización ETL",
+                "contenido": "He optimizado flujos de trabajo industriales en un 900%, transformando procesos manuales en sistemas ETL automatizados con Python. Mi enfoque asegura que cada integración sea una 'máquina bien aceitada', garantizando la trazabilidad total y la calidad de los datos procesados."
+            },
+            {
+                "titulo": "Mentalidad de Ingeniero de Calidad (R&D)",
+                "contenido": "Mi experiencia en Edge Computing y sistemas embebidos me otorga una ventaja competitiva en el manejo de grandes datasets y protocolos de comunicación. Entiendo que la integridad del dato comienza desde la captura, minimizando errores en integraciones serverless complejas."
+            },
+            {
+                "titulo": "Rigor Documental y Escalabilidad",
+                "contenido": "Sigo metodologías estructuradas como V-Modell XT para asegurar que las soluciones sean escalables y fáciles de mantener. El uso de LaTeX para documentación técnica avanzada es reflejo de mi compromiso con la precisión y la excelencia en el desarrollo de software."
+            }
+        ],
+        "notas_adicionales": [
+            "High-Fidelity Data: Resaltar el interés por la misión de DQC de combatir el fraude en la investigación de mercados.",
+            "Commander Mindset: Enfatizar la proactividad para liderar integraciones críticas sin supervisión constante."
+        ],
+        "prioridad": "Máxima",
+        "cliente_sector": "Integridad de Datos y Detección de Fraude",
+        "verificado": "166899d"
+    },
+    {
+        "empresa": "Alluxi (Software Factory)",
+        "puesto": "Arquitecto de Soluciones Senior Python & AWS",
+        "modalidad": "Remoto (LATAM/USA) - $3,000 - $3,500 USD",
+        "url_vacante": "https://www.getonbrd.com/applications#5691acef978e82c935bcf304bff01bb9",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Diseño de Arquitecturas Cloud-Native e Integración IoT/Edge",
+        "stack_tecnico": [
+            "Python",
+            "AWS",
+            "IoT",
+            "Edge Computing",
+            "Agile",
+            "Git"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Visión Integral: Hardware a Cloud",
+                "contenido": "Mi diferencial radica en la capacidad de diseñar arquitecturas que conectan el mundo físico (Edge/IoT) con el backend. Mi tesis sobre monitoreo distribuido y mi formación en electrónica me permiten mitigar deuda técnica desde la capa de adquisición de datos hasta la nube."
+            },
+            {
+                "titulo": "Liderazgo Técnico y Ownership",
+                "contenido": "Como perfil 'Commander', asumo la responsabilidad total del diseño y escalabilidad de las soluciones. Tengo experiencia liderando equipos y definiendo pipelines (ETL) que optimizan la eficiencia operativa, garantizando soluciones trazables y seguras bajo metodologías Agile."
+            },
+            {
+                "titulo": "Excelencia Técnica y Robustez",
+                "contenido": "Priorizo la mitigación de riesgos y la calidad del código. Mi manejo avanzado de Python y Git, sumado al despliegue de infraestructuras complejas, asegura que las propuestas estratégicas para clientes Enterprise cumplan con los más altos estándares de la industria."
+            }
+        ],
+        "notas_adicionales": [
+            "Valor Agregado: Destacar el incremento del 900% en eficiencia operativa logrado en proyectos previos.",
+            "Cultura Alluxi: Enfocarse en la autonomía y la capacidad de proponer soluciones directamente a nivel C-Level."
+        ],
+        "prioridad": "Máxima",
+        "cliente_sector": "Software Factory - Clientes Enterprise",
+        "verificado": "1248334"
+    },
+    {
+        "empresa": "Inetum Perú SAC",
+        "puesto": "Analista Jr de Gestión de Proyectos - Integratel",
+        "modalidad": "Híbrido/Presencial - Lima",
+        "url_vacante": "https://pe.indeed.com/viewjob?jk=d04683d80b22cd9c",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Optimización de Tareas Documentales y Seguimiento de Demanda",
+        "stack_tecnico": [
+            "IA (ChatGPT/Copilot)",
+            "Power BI",
+            "Gestión de Portafolio",
+            "Documentación Técnica"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Optimización con IA y Automatización de Flujos",
+                "contenido": "Utilizo herramientas de IA de forma avanzada para la automatización de tareas operativas y generación de documentación. Reduzco tiempos en la consolidación de información y reportabilidad."
+            },
+            {
+                "titulo": "Gestión de Demanda y Tableros de Control",
+                "contenido": "Construcción de tableros en Power BI para stakeholders, visibilizando el estado del portafolio en tiempo real y alineando negocio con TI."
+            },
+            {
+                "titulo": "Cumplimiento de Metodologías y Estándares",
+                "contenido": "Identificación de oportunidades de mejora en flujos de gestión basándome en mi formación de ingeniería para optimizar la eficiencia operativa."
+            },
+            {
+                "titulo": "Comunicación Colaborativa y Soporte",
+                "contenido": "Coordinación con usuarios de negocio y preparación de comités de demanda bajo estándares de calidad internacional."
+            }
+        ],
+        "notas_adicionales": [
+            "IA Práctica: Mencionar que gestionas tu propio CRM mediante automatización, cumpliendo un requisito directo de la vacante.",
+            "Perfil Ágil: Adaptabilidad a entornos de consultoría de alto ritmo."
+        ],
+        "prioridad": "Alta",
+        "cliente_sector": "Consultoría Digital Global / Gestión de Portafolio",
+        "verificado": "7667a79"
+    },
+    {
+        "empresa": "Gilat Satellite Networks",
+        "puesto": "Analista de Proyectos (Operations & Supply Chain)",
+        "modalidad": "On-site - San Isidro",
+        "url_vacante": "https://pe.indeed.com/viewjob?jk=0c9a1fa6d0eedd34",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Automatización de Procesos e Indicadores Contractuales",
+        "stack_tecnico": [
+            "Power Platform",
+            "SQL",
+            "Dashboards",
+            "PMBOK",
+            "Python/Git"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Automatización y Desarrollo de Herramientas",
+                "contenido": "Desarrollo de herramientas personalizadas con código y Power Platform para optimizar flujos de trabajo y reducir errores manuales."
+            },
+            {
+                "titulo": "Gestión de Datos e Integridad",
+                "contenido": "Procesamiento de data heterogénea (SQL, Sharepoint) implementando auditorías para asegurar el cumplimiento de obligaciones contractuales."
+            },
+            {
+                "titulo": "Visualización de KPIs",
+                "contenido": "Uso de Power BI para seguimiento de riesgos, cobros y estados de proyecto bajo enfoque PMBOK."
+            },
+            {
+                "titulo": "Soporte Operativo y Cumplimiento",
+                "contenido": "Capacidad analítica (Ing. Electrónica) para seguimiento de hitos, entregables y roadmaps de operación."
+            }
+        ],
+        "notas_adicionales": [
+            "Herramientas Web: Usar el orden metodológico de Git/GitHub como prueba de estructura.",
+            "Automatización: Resaltar que no solo es no-code, sino que puedes extender soluciones con programación pura."
+        ],
+        "prioridad": "Alta",
+        "cliente_sector": "Telecomunicaciones Satelitales / Supply Chain",
+        "verificado": "d113784"
+    },
+    {
+        "empresa": "Entel Perú",
+        "puesto": "Coordinador/a de Proyectos (Temporal)",
+        "modalidad": "Híbrido/Presencial - Lima",
+        "url_vacante": "https://pe.indeed.com/viewjob?jk=ac7688e1860c2c0f",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Control de Gestión, Presupuesto y Riesgos (Ciclo PMBOK)",
+        "stack_tecnico": [
+            "PMBOK",
+            "MS Project",
+            "KPIs",
+            "Control de Presupuesto"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Planificación y Control de Proyectos Telco",
+                "contenido": "Dominio de las etapas de inicio, ejecución y cierre de proyectos tecnológicos. Enfoque en cumplimiento de alcance, tiempo y costos bajo la metodología de Entel."
+            },
+            {
+                "titulo": "Liderazgo de Equipos Multidisciplinarios",
+                "contenido": "Habilidades blandas para gestionar interesados, liderar equipos técnicos y mantener comunicación fluida con proveedores y gerencias."
+            },
+            {
+                "titulo": "Reportabilidad y Gestión de KPIs",
+                "contenido": "Experiencia en reporte de indicadores y provisiones presupuestales para presentar estados de proyecto claros a la alta gerencia."
+            },
+            {
+                "titulo": "Adaptabilidad y Solución de Problemas",
+                "contenido": "Planteamiento de planes de mitigación de riesgos eficientes para asegurar la continuidad operativa ante desafíos técnicos."
+            }
+        ],
+        "notas_adicionales": [
+            "Proceso Aira: Estar atento a pruebas psicotécnicas y video-entrevista.",
+            "Herramientas: Resaltar dominio de MS Project y análisis de datos."
+        ],
+        "prioridad": "Alta",
+        "cliente_sector": "Telecomunicaciones",
+        "verificado": "cce7b61"
+    },
+    {
+        "empresa": "Gilat Satellite Networks",
+        "puesto": "Coordinador de Proyectos de Sistemas de Información",
+        "modalidad": "On-site - San Isidro",
+        "url_vacante": "https://pe.indeed.com/viewjob?jk=e904eea47f68a503",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Implementación y Mejora de Software de Gestión",
+        "stack_tecnico": [
+            "Gestión de Software",
+            "Levantamiento de Requerimientos",
+            "Git",
+            "Sistemas ERP/Finanzas"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Implementación de Sistemas de Información",
+                "contenido": "Base técnica para liderar el despliegue de soluciones de software alineadas con necesidades financieras y logísticas."
+            },
+            {
+                "titulo": "Levantamiento de Requerimientos y Mejora Continua",
+                "contenido": "Capacidad para identificar brechas operativas y transformarlas en requerimientos técnicos que maximicen la eficiencia del negocio."
+            },
+            {
+                "titulo": "Elaboración de Informes y Control con Git",
+                "contenido": "Uso de metodologías de documentación y control de versiones para generar informes precisos para la alta gerencia."
+            },
+            {
+                "titulo": "Perfil Híbrido Electrónico e IT",
+                "contenido": "Visión integral de infraestructura (capa física y lógica) para actuar como Gestor de Aplicaciones eficiente."
+            }
+        ],
+        "notas_adicionales": [
+            "On-site: Confirmar disposición para laborar en San Isidro.",
+            "Diferencial: Mencionar que la formación en Electrónica/Mecatrónica es solicitada explícitamente."
+        ],
+        "prioridad": "Alta",
+        "cliente_sector": "Sistemas de Información (Finanzas/Logística)",
+        "verificado": "8df905c"
+    },
+    {
+        "empresa": "Onyx (Sector Inmobiliario)",
+        "puesto": "Coordinador de TI",
+        "modalidad": "Presencial - Miraflores (S/. 7k - 8k)",
+        "url_vacante": "https://pe.indeed.com/viewjob?jk=f7eccccbca35e274",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Desarrollo de App propia y Transformación Digital",
+        "stack_tecnico": [
+            "Liderazgo de App Dev",
+            "Infraestructura",
+            "Seguridad IT",
+            "IA Aplicada"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Desarrollo e Implementación de Aplicaciones",
+                "contenido": "Experiencia en el ciclo completo de software. Capacidad para liderar la creación de la app propia de la empresa."
+            },
+            {
+                "titulo": "Infraestructura y Seguridad",
+                "contenido": "Administración de entornos de alta disponibilidad y mantenimiento de servidores para soporte en oficina y campo."
+            },
+            {
+                "titulo": "IA y Mejora de Procesos",
+                "contenido": "Transformar TI en un socio estratégico mediante la automatización de tareas basada en datos."
+            },
+            {
+                "titulo": "Gestión de Proveedores y Soporte Nacional",
+                "contenido": "Liderazgo de consultores externos y disponibilidad para viajes a obra para asegurar conectividad nacional."
+            }
+        ],
+        "notas_adicionales": [
+            "Sueldo: Indicar expectativa entre S/. 7,500 y S/. 8,000.",
+            "Portafolio: Usar tu web moderna como prueba de que puedes liderar el proyecto de la App."
+        ],
+        "prioridad": "Máxima",
+        "cliente_sector": "Inmobiliario / Digitalización",
+        "verificado": "84ec497"
+    },
+    {
+        "empresa": "Ferco Medical SAC",
+        "puesto": "Ingeniero Electrónico (Equipos Médicos)",
+        "modalidad": "Presencial - Miraflores",
+        "url_vacante": "https://candidato.pe.computrabajo.com/candidate/match/comparison/?im=C68417D7C45232B48E95173FADD5337F",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Mantenimiento, Instalación y Puesta en Marcha de Equipos Críticos",
+        "stack_tecnico": [
+            "Sistemas Biomédicos",
+            "Trazabilidad Documental",
+            "Mantenimiento Correctivo/Preventivo"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Instalación y Puesta en Marcha",
+                "contenido": "Capacidad técnica para configurar equipos médicos críticos bajo estándares del fabricante, asegurando seguridad para el personal y el paciente."
+            },
+            {
+                "titulo": "Mantenimiento Preventivo y Correctivo",
+                "contenido": "Experiencia en resolución de fallas en sistemas complejos para reducir tiempos de inactividad en instituciones de salud."
+            },
+            {
+                "titulo": "Trazabilidad Documental",
+                "contenido": "Uso de reportes estructurados para intervenciones rastreables, cumpliendo normativas de calidad del sector salud."
+            }
+        ],
+        "notas_adicionales": [
+            "Cultura Ética: Resaltar compromiso con políticas antisoborno.",
+            "Base Lógica: Tu formación en mecatrónica facilita entender cualquier sensor médico."
+        ],
+        "prioridad": "Alta",
+        "cliente_sector": "Sector Salud / Biomédica",
+        "verificado": "16dd7e4"
+    },
+    {
+        "empresa": "Marpatech SAC",
+        "puesto": "Ingeniero de Soporte Técnico y Ventas",
+        "modalidad": "Presencial - San Borja (S/. 2.5k + Comisiones)",
+        "url_vacante": "https://candidato.pe.computrabajo.com/candidate/match/comparison/?im=EE21A2E453411A9561386700F1C72C04",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Asesoría Técnica y Calibración de Equipos Industriales",
+        "stack_tecnico": [
+            "AMETEK/JOFRA",
+            "Calibración",
+            "AutoCAD",
+            "MS Project",
+            "Git"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Propuestas Técnico-Económicas",
+                "contenido": "Selección metódica de instrumentos para minería y energía, asegurando viabilidad técnica en entornos exigentes."
+            },
+            {
+                "titulo": "Asesoría en Calibración",
+                "contenido": "Dominio de marcas líderes para brindar capacitaciones y asistencia técnica de alta calidad."
+            },
+            {
+                "titulo": "Disciplina y Reportabilidad",
+                "contenido": "Uso de Git para control documental y MS Project para supervisión precisa de proyectos."
+            }
+        ],
+        "notas_adicionales": [
+            "Inglés: Nivel intermedio para lectura de manuales técnicos americanos.",
+            "Disponibilidad: Viajes a mina o plantas industriales."
+        ],
+        "prioridad": "Media",
+        "cliente_sector": "Minería, Petróleo y Gas / Instrumentación",
+        "verificado": "51e2ff6"
+    },
+    {
+        "empresa": "Adecco (Seguridad Electrónica)",
+        "puesto": "Jefe de Servicios / Technical Leader",
+        "modalidad": "Presencial - Surco",
+        "url_vacante": "https://pe.computrabajo.com/trabajo-de-jefe-de-servicios#BBCDC920DE81094661373E686DCF3405",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Gestión Estratégica de Proyectos y Mantenimiento",
+        "stack_tecnico": [
+            "CCTV",
+            "DACI",
+            "Control de Accesos",
+            "HSE/HSSE",
+            "Git"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Estrategia de Mantenimiento",
+                "contenido": "Diseño de planes preventivos basados en datos para garantizar la continuidad en sistemas de seguridad críticos."
+            },
+            {
+                "titulo": "Liderazgo Técnico",
+                "contenido": "Gestión de equipos bajo estándares de calidad, usando Git para trazabilidad en migraciones tecnológicas."
+            },
+            {
+                "titulo": "Integración y Automatización",
+                "contenido": "Optimización de indicadores operativos mediante lógica de programación aplicada a infraestructura electrónica."
+            }
+        ],
+        "notas_adicionales": [
+            "Soft Skills: Comunicación directa con clientes y alta gerencia.",
+            "Campo: Confirmar lectura de planos en AutoCAD y brevete vigente."
+        ],
+        "prioridad": "Alta",
+        "cliente_sector": "CCTV, DACI, Accesos",
+        "verificado": "a0bec3a"
+    },
+    {
+        "empresa": "Adecco (Sector Educación)",
+        "puesto": "Especialista en Material Educativo / EdTech",
+        "modalidad": "Presencial - Surco (S/. 3.3k + Viajes)",
+        "url_vacante": "https://pe.computrabajo.com/trabajo-de-especialista-en-venta#98FB9F145B88DBBF61373E686DCF3405",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Consultoría y Ventas de Soluciones Digitales Académicas",
+        "stack_tecnico": [
+            "Salesforce CRM",
+            "EdTech",
+            "Presentaciones Técnicas",
+            "Gestión de Datos"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Tecnología en Entornos Educativos",
+                "contenido": "Asesoría en implementación de soluciones EdTech alineadas a planes de estudio universitarios."
+            },
+            {
+                "titulo": "Gestión de Datos y CRM",
+                "contenido": "Seguimiento preciso en Salesforce para pronóstico de ventas, con el rigor documental de un ingeniero."
+            },
+            {
+                "titulo": "Empatía con el Usuario Final",
+                "contenido": "Como recién titulado, entiendo las necesidades de docentes y alumnos para facilitar la adopción de herramientas digitales."
+            }
+        ],
+        "notas_adicionales": [
+            "Disponibilidad: Viajes el 75% del tiempo y brevete vigente.",
+            "Perfil Híbrido: Rigor de ingeniero aplicado al éxito del negocio."
+        ],
+        "prioridad": "Media",
+        "cliente_sector": "Universidades / Educación Superior",
+        "verificado": "30662a2"
+    },
+    {
+        "empresa": "Vendomática (Arca Continental)",
+        "puesto": "Coordinador Electrónico / Telemetría",
+        "modalidad": "Presencial - Callao (S/. 5,800 + Utilidades)",
+        "url_vacante": "https://pe.computrabajo.com/trabajo-de-coordinador-a-ingeniero#5A59CBDCDD9C460C61373E686DCF3405",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Gestión de Telemetría y Transmisión de Datos en Tiempo Real",
+        "stack_tecnico": [
+            "Telemetría",
+            "SQL",
+            "Git",
+            "Firmware",
+            "SAP"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Gestión de Telemetría e Integridad",
+                "contenido": "Dominio de la comunicación entre periféricos y sistemas centrales, asegurando que la transmisión desde máquinas vending sea confiable y sin anomalías."
+            },
+            {
+                "titulo": "Análisis de Anomalías y Planes de Acción",
+                "contenido": "Enfoque preventivo usando SQL/Excel para identificar fallos. Control estricto de versiones de firmware mediante Git."
+            },
+            {
+                "titulo": "Optimización de Procesos en Campo",
+                "contenido": "Capacidad para desarrollar scripts de automatización que optimicen la captura de datos y aseguren su llegada íntegra a SAP/Power BI."
+            }
+        ],
+        "notas_adicionales": [
+            "Criterio de Ingeniería: Capacidad para investigar mejoras en firmware y hardware.",
+            "Plus: Mencionar disponibilidad para trabajar en la zona del Callao."
+        ],
+        "prioridad": "Alta",
+        "cliente_sector": "Vending / Consumo Masivo",
+        "verificado": "af0cb76"
+    },
+    {
+        "empresa": "AVATAR GLOBAL",
+        "puesto": "Desarrollador Front End",
+        "modalidad": "Remoto (Sede Lince)",
+        "url_vacante": "https://pe.computrabajo.com/trabajo-de-desarrollador-front-end#434423CC49AD67E061373E686DCF3405",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Modernización de Look & Feel y Performance Web",
+        "stack_tecnico": [
+            "HTML5/CSS3",
+            "JavaScript",
+            "Responsive Design",
+            "SEO Técnico"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Maquetación Responsive y Mobile-First",
+                "contenido": "Dominio avanzado de HTML5/CSS3 para transformar mockups en interfaces elegantes. Referencia directa: Mi portafolio en GitHub Pages."
+            },
+            {
+                "titulo": "JavaScript y Consumo de APIs",
+                "contenido": "Manipulación del DOM e integración fluida con backends REST/Node.js, asegurando flujos de autenticación seguros."
+            },
+            {
+                "titulo": "Performance y SEO Técnico",
+                "contenido": "Optimización de Core Web Vitals para que las tiendas virtuales no solo luzcan bien, sino que carguen rápido y posicionen mejor."
+            }
+        ],
+        "notas_adicionales": [
+            "Portafolio: Indispensable mostrar la versión móvil de tu web.",
+            "E-commerce: Mostrar interés en aprender HCL Commerce aportando bases de React/Next.js."
+        ],
+        "prioridad": "Media",
+        "cliente_sector": "E-commerce / UI-UX",
+        "verificado": "28591ee"
+    },
+    {
+        "empresa": "Kelatos",
+        "puesto": "Analista Programador / Automation",
+        "modalidad": "100% Remoto (Freelance 1 año)",
+        "url_vacante": "https://pe.computrabajo.com/trabajo-de-analista-programador-de#97545E8B2C56429161373E686DCF3405",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Automatización de Tareas y Orquestación de APIs",
+        "stack_tecnico": [
+            "Python",
+            "Shell Scripts",
+            "APIs REST",
+            "Webhooks"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Automatización y Optimización",
+                "contenido": "Transformación de tareas manuales en flujos automáticos mediante Python e integración de plataformas vía APIs."
+            },
+            {
+                "titulo": "Desarrollo Backend Eficiente",
+                "contenido": "Creación de sistemas ligeros para conectar CRMs, formularios y bases de datos sin pérdida de información."
+            },
+            {
+                "titulo": "Perfil Autónomo",
+                "contenido": "Gestión de tiempos y documentación clara de cada flujo, ideal para equipos 100% remotos."
+            }
+        ],
+        "notas_adicionales": [
+            "Proyecto CRM: Mencionar tu propio CRM Laboral como ejemplo real de integración de APIs.",
+            "Documentación: Entrega de manuales técnicos de cada proceso automatizado."
+        ],
+        "prioridad": "Alta",
+        "cliente_sector": "Sistemas / Freelance Estable",
+        "verificado": "244777f"
+    },
+    {
+        "empresa": "EXPERTIS",
+        "puesto": "Programador Python – Automatización",
+        "modalidad": "Presencial - Surco (Óvalo Monitor)",
+        "url_vacante": "https://pe.computrabajo.com/trabajo-de-programador-python-automatizacion#7B5F30DEDE30947561373E686DCF3405",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Generación de Reportes y Gestión de Flujos de Datos",
+        "stack_tecnico": [
+            "Python",
+            "Bash/Shell",
+            "SQL",
+            "Crontab"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Desarrollo de Scripts Robustos",
+                "contenido": "Uso de Python y Bash para reducir el error humano en la generación de reportes técnicos y gestión de repositorios."
+            },
+            {
+                "titulo": "Mejora Continua y Schedulers",
+                "contenido": "Identificación de cuellos de botella e implementación de tareas programadas para asegurar continuidad operativa."
+            },
+            {
+                "titulo": "Compromiso Local",
+                "contenido": "Al vivir en Surco, garantizo puntualidad y compromiso total con el horario presencial cerca al Óvalo Monitor."
+            }
+        ],
+        "notas_adicionales": [
+            "Rigor: Entrega de scripts con documentación clara (READMEs/LaTeX).",
+            "Proactividad: Enfoque en liberar tiempo de análisis automatizando lo repetitivo."
+        ],
+        "prioridad": "Media",
+        "cliente_sector": "Automatización de Procesos Operativos",
+        "verificado": "af7dc02"
+    },
+    {
+        "empresa": "RECSA PERÚ",
+        "puesto": "Desarrollador Full Stack",
+        "modalidad": "Remoto (Multinacional)",
+        "url_vacante": "https://pe.computrabajo.com/trabajo-de-desarrollador-full-stack#65D600DFF5BD26F361373E686DCF3405",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Contenedorización y Desarrollo de Microservicios",
+        "stack_tecnico": [
+            "Python",
+            "Docker",
+            "Linux",
+            "PostgreSQL",
+            "Makefile"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Infraestructura: Docker y Linux",
+                "contenido": "Uso de la terminal de Linux y Docker para contenedorizar entornos, asegurando portabilidad y despliegues seguros."
+            },
+            {
+                "titulo": "Bases de Datos Robustas",
+                "contenido": "Diseño de esquemas relacionales en PostgreSQL optimizando consultas para alto rendimiento."
+            },
+            {
+                "titulo": "Organización y Estándares",
+                "contenido": "Gestión de versiones con Git y automatización de tareas con Makefiles siguiendo estándares profesionales de ingeniería."
+            }
+        ],
+        "notas_adicionales": [
+            "Docker: Resaltar conocimiento en imágenes y docker-compose.",
+            "Visión: Mencionar interés en proyectos de alto impacto a largo plazo."
+        ],
+        "prioridad": "Alta",
+        "cliente_sector": "Servicios Financieros / Multinacional",
+        "verificado": "00362f3"
+    },
+    {
+        "empresa": "Universidad Autónoma del Perú",
+        "puesto": "Analista Programador Senior",
+        "modalidad": "Remoto (Sede VES)",
+        "url_vacante": "https://pe.computrabajo.com/trabajo-de-analista-programador-senior#65FB59EAC6BD051261373E686DCF3405",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Desarrollo de Sistemas Académicos e Integración de Web Services",
+        "stack_tecnico": [
+            "SQL Server",
+            ".NET",
+            "JavaScript",
+            "Web Services (JSON)",
+            "Git"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Enfoque en el Sector Educativo",
+                "contenido": "Familiaridad con flujos académicos y gestión de documentos institucionales mediante LaTeX y Git, asegurando precisión en datos universitarios."
+            },
+            {
+                "titulo": "SQL y Web Services",
+                "contenido": "Base lógica para trabajar con SQL Server y consumo de servicios JSON, garantizando integridad y eficiencia en consultas de gran volumen."
+            },
+            {
+                "titulo": "Estándares de Calidad e ISO 9001",
+                "contenido": "Flujo de trabajo basado en versionamiento y automatización para que los desarrollos sean escalables y cumplan con estándares de calidad institucional."
+            }
+        ],
+        "notas_adicionales": [
+            "Certificación ISO: Resaltar que el uso de Git y Makefiles busca la estandarización.",
+            "VES / Remoto: Disponibilidad inmediata para el esquema planteado."
+        ],
+        "prioridad": "Alta",
+        "cliente_sector": "Educación Superior / Academia",
+        "verificado": "9b6d812"
+    },
+    {
+        "empresa": "Adecco (Rubro Entretenimiento)",
+        "puesto": "Desarrollador Frontend",
+        "modalidad": "Presencial - Miraflores (S/. 4,000)",
+        "url_vacante": "https://pe.computrabajo.com/trabajo-de-desarrollador-frontend#509607C38304794D61373E686DCF3405",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Maquetación Responsive y Optimización de Core Web Vitals",
+        "stack_tecnico": [
+            "HTML5/CSS3",
+            "JavaScript",
+            "UX/UI",
+            "SEO Técnico",
+            "Git"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Maquetación y Código Limpio",
+                "contenido": "Enfoque en código mantenible y mobile-first utilizando Git. Capacidad para transformar requerimientos de marketing en interfaces funcionales."
+            },
+            {
+                "titulo": "Rendimiento y SEO (Core Web Vitals)",
+                "contenido": "Priorización de la velocidad de carga y estructura semántica para mejorar el posicionamiento y la experiencia de usuario (UX)."
+            },
+            {
+                "titulo": "Debugging y Testing Multicanal",
+                "contenido": "Verificación rigurosa de compatibilidad en distintos navegadores y dispositivos antes del despliegue, cumpliendo estándares W3C."
+            }
+        ],
+        "notas_adicionales": [
+            "Portafolio: Mostrar la versión elegante y moderna ya desplegada en GitHub Pages.",
+            "Mentalidad de Ingeniero: Aplicar optimización de procesos al desarrollo frontend."
+        ],
+        "prioridad": "Alta",
+        "cliente_sector": "Entretenimiento / Marketing Digital",
+        "verificado": "aea761d"
+    },
+    {
+        "empresa": "Konnect",
+        "puesto": "React Developer",
+        "modalidad": "Remoto (S/. 3,500)",
+        "url_vacante": "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programador-react-remoto-full-time-o-part-time-en-santiago-de-surco-453A9D9D45A9F3CF61373E686DCF3405?fgoa=true",
+        "fecha_postulacion": "2026-03-02",
+        "proyecto_detalle": "Mantenimiento y Evolución de Aplicaciones en React",
+        "stack_tecnico": [
+            "React",
+            "JavaScript",
+            "HTML5/CSS3",
+            "Git"
+        ],
+        "estrategia_completa": [
+            {
+                "titulo": "Mantenimiento y Orden Estructural",
+                "contenido": "Disciplina en el manejo de código existente y documentación de cambios, evitando errores humanos mediante el uso riguroso de Git."
+            },
+            {
+                "titulo": "Adaptabilidad Técnica",
+                "contenido": "Base sólida en lógica de programación. Capacidad de aprendizaje acelerado para integrarme al flujo de trabajo específico en React de la empresa."
+            },
+            {
+                "titulo": "Resolución Metódica de Problemas",
+                "contenido": "Enfoque en soluciones duraderas: análisis en entornos controlados y revisión de historial de versiones para evitar 'parches' temporales."
+            }
+        ],
+        "notas_adicionales": [
+            "Portafolio: Resaltar la versión móvil elegante desplegada en GitHub Pages.",
+            "Soft Skills: Enfatizar la capacidad autónoma y responsabilidad como bachiller en ingeniería."
+        ],
+        "prioridad": "Media",
+        "cliente_sector": "Software / Desarrollo Web",
+        "verificado": "0406f8b"
+    }
+]

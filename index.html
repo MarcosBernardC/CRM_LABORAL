@@ -10,6 +10,8 @@
     <style>
         body { font-family: 'Inter', sans-serif; }
         .modal-active { overflow: hidden; }
+        /* Para que el UUID no rompa el diseño si es muy largo */
+        .uuid-text { font-family: monospace; font-size: 9px; opacity: 0.6; }
     </style>
 </head>
 <body class="bg-gray-50 text-slate-800 min-h-screen">
@@ -35,25 +37,15 @@
             </div>
             <input type="text" id="searchInput" 
                 class="block w-full pl-11 pr-4 py-3 border border-gray-200 rounded-2xl bg-white focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all shadow-sm placeholder:text-slate-400" 
-                placeholder="Buscar por empresa, puesto o tecnología (ej: Python, Adecco, Remoto)...">
+                placeholder="Buscar por empresa, puesto o tecnología (ej: Python, AWS, KasNet)...">
         </div>
 
         <div class="mb-8 flex flex-wrap gap-4 items-center bg-white p-4 rounded-xl border border-gray-200 shadow-sm">
-            <span class="text-xs font-bold text-slate-400 uppercase tracking-widest mr-2">Leyenda de Prioridad:</span>
-            
-            <div class="flex items-center gap-2">
+            <span class="text-xs font-bold text-slate-400 uppercase tracking-widest mr-2">Prioridad:</span>
+            <div class="flex items-center gap-4">
                 <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-red-100 text-red-700 border border-red-200 uppercase">Máxima</span>
-                <span class="text-[11px] text-slate-500">Sueldo alto / Match total con mi Portafolio.</span>
-            </div>
-
-            <div class="flex items-center gap-2">
                 <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-700 border border-amber-200 uppercase">Alta</span>
-                <span class="text-[11px] text-slate-500">Empresa Top (Entel/Adecco) / Rol de Liderazgo.</span>
-            </div>
-
-            <div class="flex items-center gap-2">
                 <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-blue-100 text-blue-700 border border-blue-200 uppercase">Media</span>
-                <span class="text-[11px] text-slate-500">Buen proyecto / Freelance o Remoto estable.</span>
             </div>
         </div>
 
@@ -63,13 +55,12 @@
     <div id="helpModal" class="hidden fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-[100] flex items-center justify-center p-4">
         <div class="bg-white rounded-2xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-hidden flex flex-col">
             <div class="p-6 border-b border-gray-100 flex justify-between items-center bg-blue-50">
-                <h3 id="modalTitle" class="text-xl font-bold text-blue-900 leading-tight"></h3>
+                <div id="modalTitle"></div>
                 <button onclick="closeModal()" class="text-slate-400 hover:text-red-500 transition-colors text-2xl">&times;</button>
             </div>
-            <div id="modalContent" class="p-8 overflow-y-auto space-y-6">
-                </div>
+            <div id="modalContent" class="p-8 overflow-y-auto space-y-6"></div>
             <div class="p-4 bg-gray-50 border-t border-gray-100 text-right">
-                <button onclick="closeModal()" class="bg-slate-900 text-white px-6 py-2 rounded-xl font-bold hover:bg-slate-700 transition-all">Entendido</button>
+                <button onclick="closeModal()" class="bg-slate-900 text-white px-6 py-2 rounded-xl font-bold hover:bg-slate-700 transition-all">Cerrar Reporte</button>
             </div>
         </div>
     </div>
@@ -79,31 +70,32 @@
 
         async function loadPostulaciones() {
             try {
+                // Cambia esta URL a tu endpoint real de Render o localhost para pruebas
                 const response = await fetch('https://crm-laboral.onrender.com/postulaciones');
                 const datos = await response.json();
 
-                // Mapeamos los datos de Supabase al formato que espera tu UI
+                // MAPEO REPARADO PARA EL NUEVO ESQUEMA SQL
                 currentPostulaciones = datos.map(p => ({
-                    id: p.id.substring(0, 8), // Usamos parte del UUID de Supabase
-                    empresa: p.empresa || "Sin Empresa",
-                    puesto: p.puesto || "No especificado",
-                    prioridad: p.prioridad || "Media", // Valor por defecto si no existe en la DB
-                    fecha: p.fecha_postulacion || "Reciente",
-                    url_vacante: p.enlace_oferta || "#",
-                    // Si el stack técnico es un string en Supabase, lo convertimos a lista
-                    stack_tecnico: p.stack_tecnico ? (Array.isArray(p.stack_tecnico) ? p.stack_tecnico : p.stack_tecnico.split(',')) : ["General"],
-                    cliente_sector: p.plataforma || "No especificado",
-                    proyecto_detalle: p.notas || "Sin detalles adicionales",
-                    // Estructura mínima para que el modal no falle
-                    estrategia_completa: p.estrategia_completa || [{titulo: "General", contenido: p.notas || "Sin estrategia definida"}],
-                    notas_adicionales: p.notas_adicionales || [p.estado || "Estado: Pendiente"]
+                    id: p.id, // UUID de Supabase
+                    empresa: p.empresa,
+                    puesto: p.puesto,
+                    prioridad: p.prioridad || "Media",
+                    fecha: p.fecha_postulacion, // Nombre de columna corregido
+                    url_vacante: p.url_vacante, // Nombre de columna corregido
+                    stack_tecnico: p.stack_tecnico || [],
+                    plataforma: p.plataforma || "No especificada",
+                    cliente_sector: p.cliente_sector || "No especificado",
+                    proyecto_detalle: p.proyecto_detalle || "Sin detalles técnicos registrados",
+                    estrategia_completa: p.estrategia_completa || [], // Nombre de columna corregido
+                    notas_adicionales: p.notas_adicionales || [],
+                    modalidad: p.modalidad || "No especificada"
                 }));
 
                 renderStats(currentPostulaciones);
                 renderCards(currentPostulaciones);
             } catch (error) {
-                console.error("Error conectando con la API de Marcos:", error);
-                document.getElementById('app').innerHTML = `<p class="text-red-500 text-center col-span-full">Error al conectar con el servidor local (Uvicorn).</p>`;
+                console.error("Error conectando con la API:", error);
+                document.getElementById('app').innerHTML = `<p class="text-red-500 text-center col-span-full">Error al conectar con la API de Supabase. Revisa el servidor.</p>`;
             }
         }
 
@@ -133,39 +125,40 @@
                     <div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
                         <div>
                             <div class="flex justify-between items-start mb-4">
-                                <span class="text-[10px] font-bold text-slate-400 tracking-widest uppercase">ID #${job.id}</span>
+                                <span class="uuid-text">#${job.id.substring(0,8)}...</span>
                                 <span class="px-2 py-1 rounded text-[10px] font-bold ${priorityColor} border uppercase">${job.prioridad}</span>
                             </div>
                             <h3 class="text-xl font-bold text-slate-900 leading-tight">${job.empresa}</h3>
-                            <p class="text-blue-600 font-medium text-sm mb-4">${job.puesto}</p>
+                            <p class="text-blue-600 font-medium text-sm mb-1">${job.puesto}</p>
+                            <p class="text-slate-400 text-[11px] mb-4"><i class="fa-solid fa-calendar-day mr-1"></i> ${job.fecha}</p>
                             
                             <div class="flex flex-wrap gap-2 mb-6">
                                 ${job.stack_tecnico.map(tech => `<span class="bg-slate-50 text-slate-600 px-2 py-1 rounded text-[10px] font-semibold border border-gray-100">${tech}</span>`).join('')}
                             </div>
                         </div>
 
-                        <div class="grid grid-cols-2 gap-3 mt-4">
-                            <a href="${job.url_vacante}" target="_blank" class="text-center py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl font-bold transition-colors text-xs uppercase tracking-wider">Ver Vacante</a>
-                            <button onclick="openHelp('${job.id}')" class="text-center py-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold transition-all text-xs uppercase tracking-wider shadow-lg shadow-blue-200">
-                                <i class="fa-solid fa-lightbulb mr-1"></i> Ayuda
-                            </button>
+                        <div class="space-y-3">
+                            <div class="flex items-center text-[11px] text-slate-500 bg-slate-50 p-2 rounded-lg">
+                                <i class="fa-solid fa-layer-group mr-2 text-blue-500"></i> ${job.plataforma} | ${job.modalidad}
+                            </div>
+                            <div class="grid grid-cols-2 gap-3">
+                                <a href="${job.url_vacante}" target="_blank" class="text-center py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl font-bold transition-colors text-[10px] uppercase tracking-wider">Oferta</a>
+                                <button onclick="openHelp('${job.id}')" class="text-center py-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold transition-all text-[10px] uppercase tracking-wider shadow-lg shadow-blue-200">
+                                    <i class="fa-solid fa-lightbulb mr-1"></i> Ayuda
+                                </button>
+                            </div>
                         </div>
                     </div>
                 `;
             }).join('');
         }
 
-        // Asegúrate de mantener tus funciones de openHelp(id), closeModal() y la lógica del buscador.
-        // Solo asegúrate de que openHelp acepte el ID como String si usas el UUID de Supabase.
-
-        document.addEventListener('DOMContentLoaded', loadPostulaciones);
-
         function openHelp(id) {
             const job = currentPostulaciones.find(j => j.id === id);
             if (!job) return;
 
             document.getElementById('modalTitle').innerHTML = `
-                <div class="text-xs text-blue-600 font-mono mb-1">REPORTE TÉCNICO #${job.id}</div>
+                <div class="text-xs text-blue-600 font-mono mb-1 uppercase tracking-widest">Reporte de Ingeniería #${job.id.substring(0,8)}</div>
                 <div class="text-xl font-black text-slate-900">${job.empresa}</div>
             `;
 
@@ -173,35 +166,36 @@
             
             content.innerHTML = `
                 <div class="grid grid-cols-2 gap-4 bg-slate-50 p-4 rounded-xl border border-slate-200 mb-6 text-sm">
-                    <div><span class="font-bold text-slate-500 uppercase text-[10px] block">Sector:</span> ${job.cliente_sector}</div>
-                    <div><span class="font-bold text-slate-500 uppercase text-[10px] block">Proyecto:</span> ${job.proyecto_detalle}</div>
+                    <div><span class="font-bold text-slate-400 uppercase text-[9px] block">Sector:</span> ${job.cliente_sector}</div>
+                    <div><span class="font-bold text-slate-400 uppercase text-[9px] block">Modalidad:</span> ${job.modalidad}</div>
+                    <div class="col-span-2"><span class="font-bold text-slate-400 uppercase text-[9px] block">Detalle del Proyecto:</span> ${job.proyecto_detalle}</div>
                 </div>
 
                 <div class="space-y-6">
-                    <h4 class="font-bold text-blue-800 border-b pb-2 flex items-center">
-                        <i class="fa-solid fa-lightbulb mr-2"></i> Estrategia de Entrevista
+                    <h4 class="font-bold text-blue-800 border-b pb-2 flex items-center text-sm uppercase tracking-wider">
+                        <i class="fa-solid fa-compass mr-2"></i> Estrategia para el Pitch
                     </h4>
-                    ${job.estrategia_completa.map((sec, idx) => `
+                    ${job.estrategia_completa.length > 0 ? job.estrategia_completa.map((sec, idx) => `
                         <div class="relative pl-6 border-l-2 border-blue-200">
                             <div class="absolute -left-[9px] top-0 w-4 h-4 bg-blue-500 rounded-full border-2 border-white"></div>
-                            <p class="font-bold text-slate-800 text-sm mb-1">${idx + 1}. ${sec.titulo}</p>
-                            <p class="text-slate-600 text-sm leading-relaxed">${sec.contenido}</p>
+                            <p class="font-bold text-slate-800 text-sm mb-1">${sec.titulo}</p>
+                            <p class="text-slate-600 text-[13px] leading-relaxed">${sec.contenido}</p>
                         </div>
-                    `).join('')}
+                    `).join('') : '<p class="text-slate-400 text-sm italic italic text-center">Sin estrategia definida aún.</p>'}
                 </div>
 
                 <div class="mt-8">
-                    <h4 class="font-bold text-slate-800 mb-3 text-sm flex items-center">
-                        <i class="fa-solid fa-circle-info mr-2 text-blue-500"></i> Notas Clave
+                    <h4 class="font-bold text-slate-800 mb-3 text-sm flex items-center uppercase tracking-wider">
+                        <i class="fa-solid fa-clipboard-check mr-2 text-blue-500"></i> Notas Clave
                     </h4>
                     <ul class="space-y-2">
                         ${job.notas_adicionales.map(nota => `
-                            <li class="flex items-start text-sm text-slate-600 bg-gray-50 p-3 rounded-lg border border-gray-100">
-                                <i class="fa-solid fa-check text-blue-500 mt-1 mr-3 text-xs"></i>
+                            <li class="flex items-start text-[13px] text-slate-600 bg-gray-50 p-3 rounded-lg border border-gray-100">
+                                <i class="fa-solid fa-angle-right text-blue-500 mt-1 mr-3 text-xs"></i>
                                 <span>${nota}</span>
                             </li>
                         `).join('')}
-                    </div>
+                    </ul>
                 </div>
             `;
 
@@ -214,9 +208,7 @@
             document.body.classList.remove('modal-active');
         }
 
-        loadPostulaciones();
-
-        // Lógica del Buscador
+        // Buscador reactivo
         document.getElementById('searchInput').addEventListener('input', (e) => {
             const searchTerm = e.target.value.toLowerCase();
             const filtered = currentPostulaciones.filter(job => 
@@ -227,6 +219,9 @@
             renderCards(filtered);
             renderStats(filtered);
         });
+
+        // Carga inicial
+        document.addEventListener('DOMContentLoaded', loadPostulaciones);
     </script>
 </body>
 </html>

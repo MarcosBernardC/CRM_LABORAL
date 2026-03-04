@@ -1,52 +1,45 @@
-import json
 import os
-from supabase import create_client, Client
+import json
 from dotenv import load_dotenv
+from supabase import create_client, Client
 
+# 1. Cargar credenciales desde el .env
 load_dotenv()
-url: str = os.environ.get("SUPABASE_URL")
-key: str = os.environ.get("SUPABASE_KEY")
+url: str = os.getenv("SUPABASE_URL")
+key: str = os.getenv("SUPABASE_KEY")
+
+if not url or not key:
+    raise RuntimeError("Error: No se encontraron las credenciales de Supabase.")
+
 supabase: Client = create_client(url, key)
 
-def transformar_dato(item):
-    """
-    Función de mapeo: convierte el JSON del frontend al esquema SQL.
-    Es como un conversor de niveles lógicos.
-    """
-    return {
-        # El ID lo dejamos fuera para que Supabase genere el UUID automático
-        "empresa": item.get("empresa"),
-        "puesto": item.get("puesto"),
-        "plataforma": "Computrabajo", # O podrías extraerlo de la URL
-        "estado": item.get("estado", "Enviada"),
-        "enlace_oferta": item.get("url_vacante"),
-        # Aquí empaquetamos todo lo extra en el campo 'notas'
-        "notas": f"Proyecto: {item.get('proyecto_detalle')}\n" \
-                 f"Stack: {', '.join(item.get('stack_tecnico', []))}\n" \
-                 f"Notas: {' '.join(item.get('notas_adicionales', []))}"
-    }
+def ejecutar_carga_masiva():
+    # 2. Localizar el archivo data_limpia.json dinámicamente
+    # Esto busca en la carpeta 'data' que está en el mismo directorio que este script
+    directorio_actual = os.path.dirname(os.path.abspath(__file__))
+    ruta_json = os.path.join(directorio_actual, "data", "data_limpia.json")
 
-def upload_postulaciones():
+    if not os.path.exists(ruta_json):
+        print(f"❌ Error: El archivo {ruta_json} no existe.")
+        return
+
+    # 3. Leer la data limpia
+    with open(ruta_json, "r", encoding="utf-8") as f:
+        data_para_subir = json.load(f)
+
+    print(f"⚡ Conectando a Supabase para cargar {len(data_para_subir)} registros...")
+
     try:
-        with open('data/postulaciones.json', 'r', encoding='utf-8') as f:
-            raw_data = json.load(f)
+        # 4. Inserción masiva (Bulk Insert)
+        # Al estar la tabla vacía, simplemente insertamos la lista completa
+        response = supabase.table("postulaciones").insert(data_para_subir).execute()
         
-        # Si raw_data es un solo objeto, lo metemos en una lista
-        if isinstance(raw_data, dict):
-            raw_data = [raw_data]
+        if response.data:
+            print(f"✅ ¡Misión cumplida! {len(response.data)} postulaciones subidas a la nube.")
+            print(f"📊 Primer registro cargado: {response.data[0]['empresa']} - {response.data[0]['puesto']}")
 
-        # 4. Transformación de la data (Alineación de registros)
-        cleaned_data = [transformar_dato(item) for item in raw_data]
-        
-        print(f"📡 Enviando {len(cleaned_data)} registros mapeados a Supabase...")
-        
-        # 5. Envío al puerto de salida
-        supabase.table("postulaciones").insert(cleaned_data).execute()
-        
-        print("✅ ¡Éxito! Postulaciones cargadas. Ya puedes verlas en el Dashboard de Supabase.")
-        
     except Exception as e:
-        print(f"❌ Error en la transmisión: {e}")
+        print(f"❌ Error crítico durante la carga: {e}")
 
 if __name__ == "__main__":
-    upload_postulaciones()
+    ejecutar_carga_masiva()
