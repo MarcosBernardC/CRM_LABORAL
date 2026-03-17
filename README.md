@@ -1,41 +1,39 @@
 # CRM Laboral: Engineering Solutions Dashboard
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![GitHub Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
 
 > **"From Hardware Design to Data Intelligence"**
 
-Este proyecto es un ecosistema de gestión de datos diseñado para automatizar y centralizar el seguimiento de procesos de selección técnica. Combina la precisión de la ingeniería electrónica con arquitecturas modernas de software.
+Este proyecto es un ecosistema de gestión de datos diseñado para automatizar y centralizar el seguimiento de procesos de selección técnica. Combina la precisión de la ingeniería electrónica con arquitecturas modernas de software **Serverless**.
 
-## 🏗️ Arquitectura del Sistema
+## 🏗️ Arquitectura del Sistema (Decoupled)
 
-El proyecto sigue una estructura modular para asegurar la escalabilidad y el mantenimiento:
+El proyecto ha evolucionado hacia una estructura de alto rendimiento eliminando latencias de servidores intermedios:
 
-- **`/backend`**: Lógica de servidor y API construida con Python/FastAPI.
-- **`/data_pipeline`**: Motores de ETL (Extract, Transform, Load) para la limpieza y carga de datos masivos.
-- **`/database`**: Versionamiento de esquemas SQL y migraciones (Supabase/PostgreSQL).
-- **`/docs`**: Interfaz de usuario (Frontend) servida a través de GitHub Pages.
+- **`/docs` (Core Interface)**: Interfaz de usuario (Frontend) servida a través de **GitHub Pages**. Se conecta directamente a la capa de datos mediante el SDK de Supabase, eliminando tiempos de _cold-start_.
+- **`/backend`**: Lógica de soporte y procesamiento pesado construida con **Python/FastAPI**. Funciona como motor de tareas administrativas y validaciones complejas.
+- **`/data_pipeline`**: Motores de ETL (Extract, Transform, Load) para la limpieza y carga de datos masivos hacia la nube.
+- **`/database`**: Capa de persistencia en **Supabase (PostgreSQL)** con seguridad **RLS (Row Level Security)** para transacciones directas y seguras.
 - **`/research`**: Documentación técnica, investigación en LaTeX y archivos de ingeniería.
 
 ## 🛠️ Tech Stack
 
-| Módulo              | Tecnologías                                      |
-| :------------------ | :----------------------------------------------- |
-| **Frontend**        | HTML5, Tailwind CSS, JavaScript (Fetch API)      |
-| **Backend**         | Python 3.14+, FastAPI                            |
-| **Base de Datos**   | Supabase (PostgreSQL) con almacenamiento JSONB   |
-| **Infraestructura** | GitHub Pages, Render, Linux (Fedora/EndeavourOS) |
+| Módulo              | Tecnologías                                        |
+| :------------------ | :------------------------------------------------- |
+| **Frontend**        | HTML5, Tailwind CSS, JavaScript (**Supabase SDK**) |
+| **Persistencia**    | Supabase (PostgreSQL) con almacenamiento JSONB     |
+| **Data Engine**     | Python 3.14+, FastAPI                              |
+| **Infraestructura** | GitHub Pages (Edge), Linux (Fedora/Termux)         |
 
 ## 🚀 Características Principales
 
-- **Data Persistence:** Integración en tiempo real con Supabase para almacenamiento de estados de postulación.
-- **Trazabilidad de Ingeniería:** Registro de estrategias basadas en principios SOLID y patrones de diseño.
+- **Zero-Latency Connection:** Acceso directo a base de datos optimizado con `preconnect` para un handshake inmediato.
+- **Trazabilidad de Ingeniería:** Registro de estrategias basadas en principios **SOLID** y patrones de diseño de sistemas.
+- **Arquitectura de Estado Sólido:** Reducción de puntos de falla al eliminar la dependencia de servicios PaaS externos para la visualización.
 - **Responsive Design:** Dashboard optimizado para monitoreo desde dispositivos móviles y escritorio.
-
----
 
 ---
 
