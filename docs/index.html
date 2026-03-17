@@ -13,6 +13,8 @@
         /* Para que el UUID no rompa el diseño si es muy largo */
         .uuid-text { font-family: monospace; font-size: 9px; opacity: 0.6; }
     </style>
+    <!-- Supabase Client CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 <body class="bg-gray-50 text-slate-800 min-h-screen">
 
@@ -66,27 +68,36 @@
     </div>
 
     <script>
+        // Configuración de Supabase para GitHub Pages (Static Hosting)
+        const SUPABASE_URL = 'https://ksgkgqxrrluvtbjogkpk.supabase.co';
+        const SUPABASE_KEY = 'sb_publishable_eZbrrkJbtM2yyIz8dzGEQA_wcAbgPrp';
+        const _supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+
         let currentPostulaciones = [];
 
         async function loadPostulaciones() {
             try {
-                // Cambia esta URL a tu endpoint real de Render o localhost para pruebas
-                const response = await fetch('https://crm-laboral.onrender.com/postulaciones');
-                const datos = await response.json();
+                // Consulta directa a Supabase eliminando la dependencia de Render
+                const { data, error } = await _supabase
+                    .from('postulaciones')
+                    .select('*')
+                    .order('fecha_postulacion', { ascending: false });
 
-                // MAPEO REPARADO PARA EL NUEVO ESQUEMA SQL
-                currentPostulaciones = datos.map(p => ({
-                    id: p.id, // UUID de Supabase
+                if (error) throw error;
+
+                // MAPEADO PARA EL ESQUEMA SQL
+                currentPostulaciones = data.map(p => ({
+                    id: p.id,
                     empresa: p.empresa,
                     puesto: p.puesto,
                     prioridad: p.prioridad || "Media",
-                    fecha: p.fecha_postulacion, // Nombre de columna corregido
-                    url_vacante: p.url_vacante, // Nombre de columna corregido
+                    fecha: p.fecha_postulacion,
+                    url_vacante: p.enlace_oferta || p.url_vacante || "#",
                     stack_tecnico: p.stack_tecnico || [],
                     plataforma: p.plataforma || "No especificada",
                     cliente_sector: p.cliente_sector || "No especificado",
                     proyecto_detalle: p.proyecto_detalle || "Sin detalles técnicos registrados",
-                    estrategia_completa: p.estrategia_completa || [], // Nombre de columna corregido
+                    estrategia_completa: p.estrategia || p.estrategia_completa || [],
                     notas_adicionales: p.notas_adicionales || [],
                     modalidad: p.modalidad || "No especificada"
                 }));
@@ -94,8 +105,8 @@
                 renderStats(currentPostulaciones);
                 renderCards(currentPostulaciones);
             } catch (error) {
-                console.error("Error conectando con la API:", error);
-                document.getElementById('app').innerHTML = `<p class="text-red-500 text-center col-span-full">Error al conectar con la API de Supabase. Revisa el servidor.</p>`;
+                console.error("Error conectando con Supabase:", error);
+                document.getElementById('app').innerHTML = `<p class="text-red-500 text-center col-span-full">Error al conectar con Supabase. Verifica la conexión y las credenciales.</p>`;
             }
         }
 
